@@ -1,0 +1,9 @@
+/.lake/
+/.venv/
+/verification-output/
+**/__pycache__/
+*.py[cod]
+*.olean
+*.ilean
+.DS_Store
+Thumbs.db

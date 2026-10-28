@@ -1,0 +1,1459 @@
+Actual release verification output
+Date: 2026-10-28
+Host: VT_gauss (Linux)
+Toolchain: leanprover/lean4:v4.35.0-rc3
+Command: lake comparator --config comparator-components.json --paranoid
+Exit status: 0
+
+Resolving dependencies
+Building Verification.ComponentChallenge
+⚠ [3162/3162] Replayed Verification.ComponentChallenge
+warning: Verification/ComponentChallenge.lean:73:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:76:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:80:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:86:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:90:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:94:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:98:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:104:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:111:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:116:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:122:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:130:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:138:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:147:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:153:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:159:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:164:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:170:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:175:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:191:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:205:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:216:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:226:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:230:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:234:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:239:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:249:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:253:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:264:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:273:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:284:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:295:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:309:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:322:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:334:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:340:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:346:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:359:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:374:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:387:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:392:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:407:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:411:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:415:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:432:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:446:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:461:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:467:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:481:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:492:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:508:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:515:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:519:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:538:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:543:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:548:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:552:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:557:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:562:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:566:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:571:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:586:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:599:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:615:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:636:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:640:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:647:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:652:8: declaration uses `sorry`
+Build completed successfully (3162 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SpectralIsometry.main_result, SpectralIsometry.entire_group, SpectralIsometry.normalization, SpectralIsometry.radius_star, SpectralIsometry.injective_of_preservesRadius, SpectralIsometry.translated_radius, SpectralIsometry.square_zero_sandwich, SpectralIsometry.square_zero_support_product, SpectralIsometry.square_zero_constant_ge_one, SpectralIsometry.square_zero_perturbation_bound, SpectralIsometry.selfadjoint_jordan_product, SpectralIsometry.squares_of_selfadjoint_squares, SpectralIsometry.derivation_kernel_mul, SpectralIsometry.square_preserving_of_trace_pairings, SpectralIsometry.trace_quadratic_polarization, SpectralIsometry.trace_cubic_polarization, SpectralIsometry.selfadjoint_image_real_spectrum, SpectralIsometry.spectral_hull, SpectralIsometry.selfadjoint_perturbation_spectral_strip, SpectralIsometry.selfadjoint_image_perturbation_strip, SpectralIsometry.distance_to_nonunits, SpectralIsometry.jordan_isomorphism_spectrum, SpectralIsometry.holomorphic_selfadjoint_const, SpectralIsometry.normal_real_spectrum_selfadjoint, SpectralIsometry.selfadjoint_of_real_spectrum_shifts, SpectralIsometry.central_spectrum_circle_unitary, SpectralIsometry.mul_comm_of_norm_le_spectralRadius, SpectralIsometry.eq_zero_of_norm_radius_bound, SpectralIsometry.exp_derivation_automorphism, SpectralIsometry.exp_derivation_one, SpectralIsometry.jordan_derivation_is_derivation, SpectralIsometry.image_selfadjoint_resolvent_bound, SpectralIsometry.tracial_state_spectralRadius_bound, SpectralIsometry.GenericBanach.spectral_hull, SpectralIsometry.CommutativeReduction.commutative_selfadjoint_squares, SpectralIsometry.CommutativeReduction.commutative_squares, SpectralIsometry.CommutativeReduction.commutative_multiplicative, SpectralIsometry.trace_entire_group_moments, SpectralIsometry.CircleLp.analytic_circle_ae_ne_zero, SpectralIsometry.scalar_circle_rpow_integrable, SpectralIsometry.scalar_circle_rpow_mean, SpectralIsometry.AutomaticContinuity.upperSemicontinuous_spectralRadius, SpectralIsometry.AutomaticContinuity.upperSemicontinuous_radiusReal, SpectralIsometry.AutomaticContinuity.eq_zero_of_radius_translation_lower, SpectralIsometry.AutomaticContinuity.continuous_of_zero_separating_limits, SpectralIsometry.AutomaticContinuity.banach_circle_rpow_mean, SpectralIsometry.AutomaticContinuity.spectralRadius_circle_mean, SpectralIsometry.AutomaticContinuity.spectralRadius_circle_lintegral, SpectralIsometry.AutomaticContinuity.limsup_ae_eq_const_of_mean_lower, SpectralIsometry.AutomaticContinuity.lower_of_ae_lower_of_upperSemicontinuous, SpectralIsometry.AutomaticContinuity.separating_radius_translation_lower, SpectralIsometry.AutomaticContinuity.continuous_of_surjective_preservesRadius, SpectralIsometry.AutomaticContinuity.exists_continuousLinearEquiv_of_surjective_preservesRadius, SpectralIsometry.TraceSeries.summable_rota_series, SpectralIsometry.TraceSeries.summable_literal_rota_series, SpectralIsometry.TraceSeries.rota_series_eq_literal_tsum, SpectralIsometry.TraceSeries.one_le_rota_series, SpectralIsometry.TraceSeries.rota_series_nonneg, SpectralIsometry.TraceSeries.isUnit_rota_series, SpectralIsometry.TraceSeries.rota_series_shift, SpectralIsometry.TraceSeries.rota_series_identity, SpectralIsometry.TraceSeries.rota_similarity, SpectralIsometry.TraceSeries.tracial_state_radius_bound_via_series, SpectralIsometry.exp_squares_iff_derivation, SpectralIsometry.SourceClaims.square_zero_preservation, SpectralIsometry.SourceClaims.square_zero_contour, SpectralIsometry.SourceClaims.angular_support_limit, SpectralIsometry.SourceClaims.polar_nearest_nonunit, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Verification.ComponentChallenge
+Building Solution
+⚠ [4021/4238] Replayed SpectralIsometry.MatrixKaplansky
+warning: SpectralIsometry/MatrixKaplansky.lean:72:0: automatically included section variable(s) unused in theorem `SpectralIsometry.MatrixKaplansky.single_norm`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4022/4238] Replayed SpectralIsometry.BidualDensity
+warning: SpectralIsometry/BidualDensity.lean:56:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+ℹ [4030/4238] Replayed SpectralIsometry.GenericTranspose
+info: SpectralIsometry/GenericTranspose.lean:37:0: ContinuousLinearMap.hasOpNorm
+⚠ [4035/4238] Replayed SpectralIsometry.StrongStarApproximation
+warning: SpectralIsometry/StrongStarApproximation.lean:37:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.mul_vector_error_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/StrongStarApproximation.lean:48:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.strongTendsto_mul_of_left_norm_bound`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4036/4238] Replayed SpectralIsometry.KaplanskyNets
+warning: SpectralIsometry/KaplanskyNets.lean:28:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.probeIndex_filter_neBot`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/KaplanskyNets.lean:32:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.strongTendsto_of_probe_errors`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/KaplanskyNets.lean:83:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4037/4238] Replayed SpectralIsometry.UniversalApproximation
+warning: SpectralIsometry/UniversalApproximation.lean:39:16: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalApproximation.lean:41:39: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [4038/4238] Replayed SpectralIsometry.UniversalSelfAdjointApproximation
+warning: SpectralIsometry/UniversalSelfAdjointApproximation.lean:38:16: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalSelfAdjointApproximation.lean:38:47: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+⚠ [4044/4238] Replayed SpectralIsometry.HilbertDomination
+warning: SpectralIsometry/HilbertDomination.lean:68:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: SpectralIsometry/HilbertDomination.lean:168:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/HilbertDomination.lean:169:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4045/4238] Replayed SpectralIsometry.WeakHilbertBounds
+warning: SpectralIsometry/WeakHilbertBounds.lean:58:0: automatically included section variable(s) unused in theorem `SpectralIsometry.WeakHilbertBounds.tendsto_zero_of_norm_sq_bound`:
+  [InnerProductSpace ℂ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4046/4238] Replayed SpectralIsometry.GenericNormalProjectionContinuity
+warning: SpectralIsometry/GenericNormalProjectionContinuity.lean:84:0: automatically included section variable(s) unused in theorem `SpectralIsometry.NormalProjectionContinuity.norm_squares_tendsto_zero_at_normal_vector`:
+  [CompleteSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/GenericNormalProjectionContinuity.lean:92:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.GenericNormalProjectionContinuity.0.SpectralIsometry.NormalProjectionContinuity.tendsto_zero_of_norm_sq`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4047/4238] Replayed SpectralIsometry.UniversalNormalContinuity
+warning: SpectralIsometry/UniversalNormalContinuity.lean:82:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.UniversalNormalContinuity.0.SpectralIsometry.BidualFoundation.UniversalNormalContinuity.original_vector_domination`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/UniversalNormalContinuity.lean:113:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.UniversalNormalContinuity.0.SpectralIsometry.BidualFoundation.UniversalNormalContinuity.weak_vector_limit`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/UniversalNormalContinuity.lean:145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalNormalContinuity.lean:174:18: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalContinuity.lean:175:8: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/UniversalNormalContinuity.lean:181:27: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalContinuity.lean:182:8: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/UniversalNormalContinuity.lean:191:24: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalContinuity.lean:199:33: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+⚠ [4048/4238] Replayed SpectralIsometry.NilpotentSupports
+warning: SpectralIsometry/NilpotentSupports.lean:49:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentSupports.0.SpectralIsometry.StrongStarApproximation.kernel_invariant`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentSupports.lean:57:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentSupports.0.SpectralIsometry.StrongStarApproximation.rangeClosure_invariant`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentSupports.lean:91:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupports.lean:92:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupports.lean:117:35: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NilpotentSupports.lean:156:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupports.lean:157:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4049/4238] Replayed SpectralIsometry.StrongStarCFC
+warning: SpectralIsometry/StrongStarCFC.lean:33:16: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/StrongStarCFC.lean:35:26: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/StrongStarCFC.lean:63:15: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/StrongStarCFC.lean:37:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.strongTendsto_of_uniform_approx`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4050/4238] Replayed SpectralIsometry.StrongStarCuts
+warning: SpectralIsometry/StrongStarCuts.lean:33:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:40:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:43:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:80:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:86:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4051/4238] Replayed SpectralIsometry.NilpotentApproximation
+warning: SpectralIsometry/NilpotentApproximation.lean:40:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentApproximation.0.SpectralIsometry.StrongStarApproximation.fst_tendsto_probe`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentApproximation.lean:47:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentApproximation.0.SpectralIsometry.StrongStarApproximation.snd_tendsto_probe`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentApproximation.lean:54:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.nilIndex_filter_neBot`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentApproximation.lean:116:16: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NilpotentApproximation.lean:118:41: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NilpotentApproximation.lean:183:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4095/4238] Replayed SpectralIsometry.Basic
+warning: SpectralIsometry/Basic.lean:310:6: `stdSimplex` has been deprecated: Use `Convexity.StdSimplex` instead
+
+Note: The updated constant has a different type:
+  (R : Type u) → [LE R] → [AddCommMonoid R] → [One R] → Type v → Type (max u v)
+instead of
+  (𝕜 : Type u_2) → (ι : Type u_1) → [Semiring 𝕜] → [PartialOrder 𝕜] → [Fintype ι] → Set (ι → 𝕜)
+warning: SpectralIsometry/Basic.lean:315:6: `isCompact_stdSimplex` has been deprecated: Use `Convexity.StdSimplex.compactSpace` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) (M : Type u_2) [inst : Ring R] [inst_1 : TopologicalSpace R] [IsTopologicalRing R]
+    [inst_3 : PartialOrder R] [inst_4 : IsStrictOrderedRing R] [CompactIccSpace R] [OrderClosedTopology R] [Finite M],
+    CompactSpace (Convexity.StdSimplex R M)
+instead of
+  ∀ (𝕜 : Type u_1) (ι : Type u_2) [inst : Fintype ι] [inst_1 : TopologicalSpace 𝕜] [inst_2 : Semiring 𝕜]
+    [inst_3 : PartialOrder 𝕜] [OrderClosedTopology 𝕜] [ContinuousAdd 𝕜] [CompactIccSpace 𝕜] [IsOrderedAddMonoid 𝕜],
+    IsCompact (stdSimplex 𝕜 ι)
+warning: SpectralIsometry/Basic.lean:795:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:820:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:835:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:876:0: automatically included section variable(s) unused in theorem `SpectralIsometry.eq_zero_of_norm_radius_bound`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:896:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1102:0: automatically included section variable(s) unused in theorem `SpectralIsometry.JordanDerivationAlgebra.polarize_zero_pairs`:
+  [Algebra ℂ A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra ℂ A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1268:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1273:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1279:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1355:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.TraceBound.rotaSum_succ`:
+  [PartialOrder A]
+  [StarOrderedRing A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PartialOrder A] [StarOrderedRing A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1448:10: This simp argument is unused:
+  abs_of_nonneg t.2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [s, smul_pow, norm_smul, Real.norm_eq_abs, inv_pow, div_eq_mul_inv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Basic.lean:1476:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1477:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1498:6: `stdSimplex` has been deprecated: Use `Convexity.StdSimplex` instead
+
+Note: The updated constant has a different type:
+  (R : Type u) → [LE R] → [AddCommMonoid R] → [One R] → Type v → Type (max u v)
+instead of
+  (𝕜 : Type u_2) → (ι : Type u_1) → [Semiring 𝕜] → [PartialOrder 𝕜] → [Fintype ι] → Set (ι → 𝕜)
+warning: SpectralIsometry/Basic.lean:1503:6: `isCompact_stdSimplex` has been deprecated: Use `Convexity.StdSimplex.compactSpace` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) (M : Type u_2) [inst : Ring R] [inst_1 : TopologicalSpace R] [IsTopologicalRing R]
+    [inst_3 : PartialOrder R] [inst_4 : IsStrictOrderedRing R] [CompactIccSpace R] [OrderClosedTopology R] [Finite M],
+    CompactSpace (Convexity.StdSimplex R M)
+instead of
+  ∀ (𝕜 : Type u_1) (ι : Type u_2) [inst : Fintype ι] [inst_1 : TopologicalSpace 𝕜] [inst_2 : Semiring 𝕜]
+    [inst_3 : PartialOrder 𝕜] [OrderClosedTopology 𝕜] [ContinuousAdd 𝕜] [CompactIccSpace 𝕜] [IsOrderedAddMonoid 𝕜],
+    IsCompact (stdSimplex 𝕜 ι)
+warning: SpectralIsometry/Basic.lean:1554:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.GenericBanach.translated_radius`:
+  [CompleteSpace A]
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace A] [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1564:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.GenericBanach.spectrum_subset_closedHull_of_translated_radius`:
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1704:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.positive_character`:
+  [CompleteSpace A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1717:4: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_mul, mul_one, pow_two, Complex.mul_im, Complex.mul_re, Complex.sub_im, Complex.sub_re, hi,
+    hr, sub_self, mul_zero, zero_mul, add_zero, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Basic.lean:1723:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.functional_quadratic`:
+  [CompleteSpace A]
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace A] [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1757:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.injective_radius_map`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1828:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.jordan_product_from_selfadjoint`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1904:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1905:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2123:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2129:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2230:0: automatically included section variable(s) unused in theorem `SpectralIsometry.AutomaticContinuity.banach_circle_rpow_mean`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:2422:31: `Set.setOf_mem_eq` has been deprecated: Use `Set.ofPred_mem_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵m̵e̵m̵_̵e̵q̵o̲f̲P̲r̲e̲d̲_̲m̲e̲m̲_̲e̲q̲
+warning: SpectralIsometry/Basic.lean:2633:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2634:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2642:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2643:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2649:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2650:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2665:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: SpectralIsometry/Basic.lean:2693:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2694:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2794:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2795:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2829:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: SpectralIsometry/Basic.lean:2855:70: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hzero, one_apply_eq_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Basic.lean:2855:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4096/4238] Replayed SpectralIsometry.SquareZeroGrowth
+warning: SpectralIsometry/SquareZeroGrowth.lean:87:0: automatically included section variable(s) unused in theorem `SpectralIsometry.SquareZeroGrowth.inverse_linear_growth_of_quadratic_resolvent_growth`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4097/4238] Replayed SpectralIsometry.SquareZeroPreservation
+warning: SpectralIsometry/SquareZeroPreservation.lean:74:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/SquareZeroPreservation.lean:76:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/SquareZeroPreservation.lean:81:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4098/4238] Replayed SpectralIsometry.UniversalSquareZeroExtension
+warning: SpectralIsometry/UniversalSquareZeroExtension.lean:94:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4099/4238] Replayed SpectralIsometry.BoundedInverseLimit
+warning: SpectralIsometry/BoundedInverseLimit.lean:35:4: Try this: intro ξ _ η hη
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+warning: SpectralIsometry/BoundedInverseLimit.lean:43:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.BoundedInverseLimit.0.SpectralIsometry.BoundedInverseLimit.norm_le_of_left_inverse`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4100/4238] Replayed SpectralIsometry.UniversalRealSpectrumExtension
+warning: SpectralIsometry/UniversalRealSpectrumExtension.lean:46:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalRealSpectrumExtension.lean:67:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4161/4238] Replayed OAI.Analysis.TracialCohomology.CenterExtensions
+warning: vendor/OAI/Analysis/TracialCohomology/CenterExtensions.lean:149:0: automatically included section variable(s) unused in theorem `OAI.PopaCenter.System.conjugated_expect`:
+  [PartialOrder M]
+  [StarOrderedRing M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PartialOrder M] [StarOrderedRing M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4281/4352] Replayed SpectralIsometry.DyadicProjectionStrong
+warning: SpectralIsometry/DyadicProjectionStrong.lean:37:13: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/DyadicProjectionStrong.lean:37:43: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/DyadicProjectionStrong.lean:55:24: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/DyadicProjectionStrong.lean:70:16: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+⚠ [4282/4352] Replayed SpectralIsometry.SquareZeroCopies
+warning: SpectralIsometry/SquareZeroCopies.lean:30:5: Variable name `hpq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4284/4352] Replayed SpectralIsometry.NormalProjectionApproximation
+warning: SpectralIsometry/NormalProjectionApproximation.lean:83:18: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:89:18: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:98:9: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: SpectralIsometry/NormalProjectionApproximation.lean:164:12: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NormalProjectionApproximation.lean:173:22: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:189:16: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:195:19: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NormalProjectionApproximation.lean:197:26: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+⚠ [4290/4352] Replayed SpectralIsometry.QuadraticProjection
+warning: SpectralIsometry/QuadraticProjection.lean:38:22: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:32:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.QuadraticProjection.0.SpectralIsometry.QuadraticProjection.orthogonal_zero`:
+  [PartialOrder M]
+  [StarOrderedRing M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PartialOrder M] [StarOrderedRing M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/QuadraticProjection.lean:110:54: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:111:10: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:112:10: This simp argument is unused:
+  zero_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← Complex.coe_smul, map_sub, map_smul, ContinuousLinearMap.sub_apply,
+    ContinuousLinearMap.smul_apply, hpb, hbp', hproj p hp, smul_zero, sub_zero, sub_neg_eq_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/QuadraticProjection.lean:112:19: This simp argument is unused:
+  sub_neg_eq_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← Complex.coe_smul, map_sub, map_smul, ContinuousLinearMap.sub_apply,
+    ContinuousLinearMap.smul_apply, hpb, hbp', hproj p hp, smul_zero, sub_zero, zero_sub]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/QuadraticProjection.lean:147:9: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:158:23: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+⚠ [4294/4352] Replayed SpectralIsometry.CornerHolomorphicWeight
+warning: SpectralIsometry/CornerHolomorphicWeight.lean:28:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4298/4352] Replayed SpectralIsometry.FiniteBidualDecomposition
+warning: SpectralIsometry/FiniteBidualDecomposition.lean:50:17: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4302/4352] Replayed SpectralIsometry.UniversalTraceMoments
+warning: SpectralIsometry/UniversalTraceMoments.lean:27:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalTraceMoments.lean:33:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalTraceMoments.lean:104:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4309/4352] Replayed SpectralIsometry.OffDiagonalFamily
+warning: SpectralIsometry/OffDiagonalFamily.lean:63:25: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+⚠ [4313/4352] Replayed SpectralIsometry.GenericCentralOffDiagonal
+warning: SpectralIsometry/GenericCentralOffDiagonal.lean:23:30: Variable name `hqc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4317/4352] Replayed SpectralIsometry.CentralSplitFamilyAssembly
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:31:28: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:32:7: Variable name `hpc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:32:32: Variable name `hqc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:32:57: Variable name `hsum` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsum
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4321/4352] Replayed SpectralIsometry.SubalgebraRadius
+warning: SpectralIsometry/SubalgebraRadius.lean:43:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4323/4352] Replayed SpectralIsometry.MainReduction
+warning: SpectralIsometry/MainReduction.lean:96:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReduction.lean:112:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReduction.lean:145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReduction.lean:146:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4324/4352] Replayed SpectralIsometry.MainReductionSquares
+warning: SpectralIsometry/MainReductionSquares.lean:75:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReductionSquares.lean:76:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReductionSquares.lean:89:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReductionSquares.lean:90:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4325/4352] Replayed SpectralIsometry.Normalization
+warning: SpectralIsometry/Normalization.lean:98:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:102:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:101:18: This simp argument is unused:
+  spectrum.spectralRadius_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ha, hz]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Normalization.lean:167:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:208:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:191:61: This simp argument is unused:
+  Units.inv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_mul, mul_assoc, Units.mul_inv, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Normalization.lean:191:76: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_mul, mul_assoc, Units.mul_inv, Units.inv_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4326/4352] Replayed SpectralIsometry.NormalizationUnitary
+warning: SpectralIsometry/NormalizationUnitary.lean:55:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:61:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:82:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:83:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:8: This simp argument is unused:
+  smul_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_sub,
+    smul_mul_assoc, mul_smul_comm, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:26: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_add, smul_sub,
+    mul_smul_comm, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:41: This simp argument is unused:
+  mul_smul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_add, smul_sub,
+    smul_mul_assoc, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:55: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_add, smul_sub,
+    smul_mul_assoc, mul_smul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:106:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4329/4352] Replayed SpectralIsometry.SquareZeroContour
+warning: SpectralIsometry/SquareZeroContour.lean:29:37: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Algebra.algebraMap_eq_smul_one, sub_mul, mul_add, mul_smul_comm, smul_mul_assoc, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/SquareZeroContour.lean:39:37: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Algebra.algebraMap_eq_smul_one, mul_sub, add_mul, mul_smul_comm, smul_mul_assoc, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4332/4352] Replayed SpectralIsometry.GenericScalarNormalPart
+warning: SpectralIsometry/GenericScalarNormalPart.lean:28:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [4333/4352] Replayed SpectralIsometry.UniversalNormalSupport
+warning: SpectralIsometry/UniversalNormalSupport.lean:62:34: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalSupport.lean:73:38: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [4336/4352] Replayed SpectralIsometry.WeakStarNormalContinuity
+warning: SpectralIsometry/WeakStarNormalContinuity.lean:42:6: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/WeakStarNormalContinuity.lean:41:26: This simp argument is unused:
+  map_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_smulₛₗ, RingHom.id_apply, starRingEnd_apply, star_star, ContinuousLinearMap.smul_apply,
+    smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/WeakStarNormalContinuity.lean:46:0: automatically included section variable(s) unused in theorem `SpectralIsometry.BidualFoundation.WeakStarNormalContinuity.normalFunctionalPullback_of_weakStarContinuous`:
+  [CompleteSpace X]
+  [CompleteSpace Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] [CompleteSpace Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4337/4352] Replayed SpectralIsometry.NormalSeminorm
+warning: SpectralIsometry/NormalSeminorm.lean:45:0: automatically included section variable(s) unused in theorem `SpectralIsometry.NormalSeminorm.seminormTendsto_iff`:
+  [CompleteSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4338/4352] Replayed SpectralIsometry.InvertiblePolarDistance
+warning: SpectralIsometry/InvertiblePolarDistance.lean:26:0: automatically included section variable(s) unused in theorem `SpectralIsometry.InvertiblePolarDistance.modulus_isUnit`:
+  [Nontrivial A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nontrivial A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4339/4352] Replayed SpectralIsometry.InverseOrderBounds
+warning: SpectralIsometry/InverseOrderBounds.lean:115:51: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/InverseOrderBounds.lean:157:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/InverseOrderBounds.lean:160:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4341/4352] Replayed SpectralIsometry.NilpotentSupportIdentification
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:39:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:43:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:76:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:77:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:90:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:101:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:102:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:107:6: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:134:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentSupportIdentification.0.SpectralIsometry.SupportIdentification.rangeClosure_invariant`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:158:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4343/4352] Replayed SpectralIsometry.NormalSeminormStructure
+warning: SpectralIsometry/NormalSeminormStructure.lean:43:52: This simp argument is unused:
+  RingHom.id_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_smul, map_smul, norm_smul, norm_star]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4344/4352] Replayed SpectralIsometry.NormalSeminormTopology
+warning: SpectralIsometry/NormalSeminormTopology.lean:38:0: Definition `SpectralIsometry.NormalSeminorm.strongStarTopology` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: SpectralIsometry/NormalSeminormTopology.lean:43:0: automatically included section variable(s) unused in theorem `SpectralIsometry.NormalSeminorm.topology_withSeminorms`:
+  [CompleteSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (4352 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, SpectralIsometry.main_result, SpectralIsometry.entire_group, SpectralIsometry.normalization, SpectralIsometry.radius_star, SpectralIsometry.injective_of_preservesRadius, SpectralIsometry.translated_radius, SpectralIsometry.square_zero_sandwich, SpectralIsometry.square_zero_support_product, SpectralIsometry.square_zero_constant_ge_one, SpectralIsometry.square_zero_perturbation_bound, SpectralIsometry.selfadjoint_jordan_product, SpectralIsometry.squares_of_selfadjoint_squares, SpectralIsometry.derivation_kernel_mul, SpectralIsometry.square_preserving_of_trace_pairings, SpectralIsometry.trace_quadratic_polarization, SpectralIsometry.trace_cubic_polarization, SpectralIsometry.selfadjoint_image_real_spectrum, SpectralIsometry.spectral_hull, SpectralIsometry.selfadjoint_perturbation_spectral_strip, SpectralIsometry.selfadjoint_image_perturbation_strip, SpectralIsometry.distance_to_nonunits, SpectralIsometry.jordan_isomorphism_spectrum, SpectralIsometry.holomorphic_selfadjoint_const, SpectralIsometry.normal_real_spectrum_selfadjoint, SpectralIsometry.selfadjoint_of_real_spectrum_shifts, SpectralIsometry.central_spectrum_circle_unitary, SpectralIsometry.mul_comm_of_norm_le_spectralRadius, SpectralIsometry.eq_zero_of_norm_radius_bound, SpectralIsometry.exp_derivation_automorphism, SpectralIsometry.exp_derivation_one, SpectralIsometry.jordan_derivation_is_derivation, SpectralIsometry.image_selfadjoint_resolvent_bound, SpectralIsometry.tracial_state_spectralRadius_bound, SpectralIsometry.GenericBanach.spectral_hull, SpectralIsometry.CommutativeReduction.commutative_selfadjoint_squares, SpectralIsometry.CommutativeReduction.commutative_squares, SpectralIsometry.CommutativeReduction.commutative_multiplicative, SpectralIsometry.trace_entire_group_moments, SpectralIsometry.CircleLp.analytic_circle_ae_ne_zero, SpectralIsometry.scalar_circle_rpow_integrable, SpectralIsometry.scalar_circle_rpow_mean, SpectralIsometry.AutomaticContinuity.upperSemicontinuous_spectralRadius, SpectralIsometry.AutomaticContinuity.upperSemicontinuous_radiusReal, SpectralIsometry.AutomaticContinuity.eq_zero_of_radius_translation_lower, SpectralIsometry.AutomaticContinuity.continuous_of_zero_separating_limits, SpectralIsometry.AutomaticContinuity.banach_circle_rpow_mean, SpectralIsometry.AutomaticContinuity.spectralRadius_circle_mean, SpectralIsometry.AutomaticContinuity.spectralRadius_circle_lintegral, SpectralIsometry.AutomaticContinuity.limsup_ae_eq_const_of_mean_lower, SpectralIsometry.AutomaticContinuity.lower_of_ae_lower_of_upperSemicontinuous, SpectralIsometry.AutomaticContinuity.separating_radius_translation_lower, SpectralIsometry.AutomaticContinuity.continuous_of_surjective_preservesRadius, SpectralIsometry.AutomaticContinuity.exists_continuousLinearEquiv_of_surjective_preservesRadius, SpectralIsometry.TraceSeries.summable_rota_series, SpectralIsometry.TraceSeries.summable_literal_rota_series, SpectralIsometry.TraceSeries.rota_series_eq_literal_tsum, SpectralIsometry.TraceSeries.one_le_rota_series, SpectralIsometry.TraceSeries.rota_series_nonneg, SpectralIsometry.TraceSeries.isUnit_rota_series, SpectralIsometry.TraceSeries.rota_series_shift, SpectralIsometry.TraceSeries.rota_series_identity, SpectralIsometry.TraceSeries.rota_similarity, SpectralIsometry.TraceSeries.tracial_state_radius_bound_via_series, SpectralIsometry.exp_squares_iff_derivation, SpectralIsometry.SourceClaims.square_zero_preservation, SpectralIsometry.SourceClaims.square_zero_contour, SpectralIsometry.SourceClaims.angular_support_limit, SpectralIsometry.SourceClaims.polar_nearest_nonunit, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+Running Lean paranoid kernel on solution
+Lean paranoid kernel accepts the solution
+Running lean4lean kernel on solution
+[anonymous]:thmDecl SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_norm_le: lean4lean took 1090
+[anonymous]:defnDecl SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionEquiv: lean4lean took 1404
+[anonymous]:defnDecl SpectralIsometry.BidualFoundation.OperatorExtension.preadjoint: lean4lean took 1185
+[anonymous]:defnDecl SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionDualEquiv: lean4lean took 2785
+[anonymous]:defnDecl SpectralIsometry.BidualFoundation.UniversalWeakClosure.bidualIsometry: lean4lean took 1625
+[anonymous]:thmDecl SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionDualEquiv_apply: lean4lean took 2197
+[anonymous]:thmDecl SpectralIsometry.BidualFoundation.UniversalWeakClosure.bidualIsometry_pairing: lean4lean took 1275
+[anonymous]:defnDecl SpectralIsometry.BidualFoundation.OperatorExtension.liftLinearIsometry: lean4lean took 1430
+[anonymous]:defnDecl SpectralIsometry.BidualFoundation.OperatorExtension.liftOperator: lean4lean took 1445
+[anonymous]:thmDecl SpectralIsometry.FiniteQuotientAssembly.universal_normal_trace_moments: lean4lean took 5251
+[anonymous]:thmDecl SpectralIsometry.FiniteQuotientAssembly.universal_compression_kernel_invariant: lean4lean took 3598
+[anonymous]:thmDecl SpectralIsometry.FiniteQuotientAssembly.universalComplementEquiv._proof_14: lean4lean took 1335
+[anonymous]:defnDecl SpectralIsometry.FiniteQuotientAssembly.universalComplementEquiv: lean4lean took 1638
+[anonymous]:thmDecl SpectralIsometry.FiniteQuotientAssembly.universal_finiteBlock_jordan: lean4lean took 3877
+[anonymous]:thmDecl SpectralIsometry.EntireAssembly.universal_entire_family: lean4lean took 3909
+checked 63618 declarations
+lean4lean kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running con-leche kernel on solution
+con-leche: accepted 63617 declarations (--verified)
+con-leche kernel accepts the solution
+Running con-ron kernel on solution
+con-ron: accepted 63617 declarations (--verified)
+con-ron kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
+
+con-leche: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)

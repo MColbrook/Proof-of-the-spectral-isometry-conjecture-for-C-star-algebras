@@ -1,0 +1,22 @@
+Spectral isometries of unital C*-algebras
+Matthew J. Colbrook and George Stepaniants
+
+This project is distributed under the Apache License, Version 2.0.
+
+The vendor/OAI sources are compatibility ports of the OpenAI mathematics
+formalization and its contributors, distributed under Apache-2.0. Original
+mathematical authorship of those developments remains with their contributors.
+The upstream source is https://github.com/openai/math/tree/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean .
+The accompanying licence is retained at vendor/LICENSE.
+
+The compatibility layer provides universal representations, preduals,
+Kaplansky density, finite normal traces, central decompositions, and properly
+infinite projection and isometry structure. The ports use Lean's module system
+and a Mathlib prelude for compatibility with the selected toolchain.
+
+Mathlib and its contributors provide the supporting analysis and algebra
+library under Apache-2.0. Their notices remain in that dependency.
+
+AI assistance with the Lean formalization, source organization, verification
+and review is recorded in formalization.yaml. AI assistance was not used to
+write the manuscript. No human proof review is implied by this notice.

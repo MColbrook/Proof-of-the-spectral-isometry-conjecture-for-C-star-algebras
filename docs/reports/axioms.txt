@@ -1,0 +1,1192 @@
+Actual release verification output
+Date: 2026-10-28
+Host: VT_gauss (Linux)
+Toolchain: leanprover/lean4:v4.35.0-rc3
+Command: lake env lean AxiomReport.lean
+Exit status: 0
+
+'OAI.BoundedHochschild.KadisonRingrose.universalGNSRepresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.BoundedHochschild.KadisonRingrose.universalGNSRepresentation_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.BoundedHochschild.KadisonRingrose.universalGNSRepresentation_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.banach_circle_rpow_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.continuous_of_surjective_preservesRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.continuous_of_zero_separating_limits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.eq_zero_of_radius_translation_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.exists_continuousLinearEquiv_of_surjective_preservesRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.limsup_ae_eq_const_of_mean_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.lower_of_ae_lower_of_upperSemicontinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.separating_radius_translation_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.spectralRadius_circle_lintegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.spectralRadius_circle_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.upperSemicontinuous_radiusReal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.AutomaticContinuity.upperSemicontinuous_spectralRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.coefficientPredual_boundedWOT' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.coefficientPredual_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.coefficientPredual_tendsto_of_strong' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.concreteWStarAlgebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.functionalStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.inner_operatorFromDual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.leftMulPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.normalDual_eq_coefficientPredual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.operatorFromDual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.operatorFromDual_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.predualEvaluationEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.rightMulPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.starPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.CoefficientPredual.vectorFunctional_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.GenericDual.dualIsometryEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.GenericDual.dualIsometryEquiv_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.differentiable_lift_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.differentiable_lift_exp_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.expOperatorEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.exp_operator_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.liftEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.liftLinearIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_coefficientTendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_unital' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_norm_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.lift_vector_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.preadjoint_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_canonical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.transpose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.OperatorExtension.transpose_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalApproximation.exists_bounded_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalApproximation.exists_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalApproximation.index_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalContinuity.exists_vector_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalContinuity.strongStarTendsto_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.compressed_extension_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.compressed_lift_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.normalPositiveTendsto_map_of_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.normal_extension_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_central' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_fixes_normal_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_isStarProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalRealSpectrumExtension.lift_selfadjoint_real_spectrum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalRealSpectrumExtension.lift_selfadjoint_resolvent_isUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalSelfAdjointApproximation.exists_bounded_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.exists_original_squareZero_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.lift_preserves_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.lift_strongStarTendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.spectral_lift_preserves_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalTraceMoments.trace_entire_group_moments_universal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.arensPairings_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.bidualIsometry_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_firstArensPairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_starPairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_symm_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_eq_positiveExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_starSquare_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_tracial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.contractionStrongDense' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.exists_four_positive_canonical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.exists_predual_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.exists_strong_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.firstArensPairing_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.fourCombination_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.fourPositiveFamily_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.positiveExtension_starSquare_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.representationRange_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionDualEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionLinearIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_fourCombination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_norm_eq_of_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.secondArensPairing_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.starPairing_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.tracial_of_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.UniversalWeakClosure.weakClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.WeakStarNormalContinuity.normalFunctionalPullback_of_weakStarContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.WeakStarNormalContinuity.strongStar_on_bounded_sets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BidualFoundation.faithfulHilbertModel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.BidualFoundation.faithfulHilbertModel_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedInverseLimit.isUnit_of_strongStar_of_inverse_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedInverseLimit.isUnit_of_two_vector_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedNeighborhoodReindex.exists_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.BoundedNeighborhoodReindex.index_atTop_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.convergent_nets_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.converges_iff_normalTopology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.firstHom_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.firstHom_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.firstHom_range_normalTopology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.graph_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.limitHom_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.limitHom_surjective_of_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.squareZero_contraction_lift_of_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.BoundedStrongStarNetGraph.squareZero_lift_of_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CenterTraceGluing.exists_bounded_gluing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTraceGluing.exists_positive_gluing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTraceNormality.normalPart_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTraceNormality.normalPart_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTraceNormality.normal_of_central_pairings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CenterTracePieces.average_center_module' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTracePieces.average_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTracePieces.exists_tracePiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTracePieces.scalar_faithful_piece' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterTracePieces.scalar_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CenterValuedTraceConcrete.finite_vonNeumann_has_center_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CenterValuedTraceConcrete.positive_faithful' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CentralBlocksSquareAssembly.complementary_compressions_separate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CentralBlocksSquareAssembly.first_compression_kernel_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CentralBlocksSquareAssembly.preserves_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CircleLp.analytic_circle_ae_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CommutativeReduction.commutative_multiplicative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CommutativeReduction.commutative_selfadjoint_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CommutativeReduction.commutative_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.central_weight_of_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.continuousEquivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.equivalence_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.holomorphic_central_weight_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteCorner.inclusion_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.lift_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.mem_algebra_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.selfAdjoint_of_central_of_ambient_real_spectrum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteCorner.strongStarTendsto_equivalence_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteCorner.strongStarTendsto_lift_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.ConcreteCorner.transport_bounded_sequence_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteCorner.transport_preservesSquareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteCorner.weakOperatorTendsto_lift_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteNormalSeminorm.bounded_strongStar_to_normalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteNormalSeminorm.bounded_topology_iff_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ConcreteNormalSeminorm.normalPositive_to_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.centralBlockCLM_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.crossBlockCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.crossBlockCLM_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.differentiable_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.sandwichL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.universal_complementBlock_operator_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.CornerFamilyHolomorphic.universal_crossBlock_operator_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.entire_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.expOperatorEquiv_toCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.lift_exp_real_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.lift_exp_squareZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.lift_exp_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.lift_exp_zero_apply_fast' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_complement_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_complement_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_complement_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_complement_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_complement_weight_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_complement_weight_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_crossBlock_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.EntireAssembly.universal_entire_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.EntireAssemblyGeneric.restriction_strongStarTendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteBidualDecomposition.eq_zero_of_all_normal_tracial_states' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteBidualDecomposition.exists_central_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteBidualDecomposition.exists_finite_properlyInfinite_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteBidualDecomposition.exists_normal_tracial_state_faithful_on_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteBidualDecomposition.positive_eq_zero_of_all_normal_tracial_states' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralBlockCLM_coe_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralBlockCLM_comp_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralBlockCLM_toLinearMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralCompressionHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralCompressionHom_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralCompression_eq_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralCompression_kernel_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralFunctionalExtension_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralPositiveTraceExtension_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.centralPositiveTraceExtension_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.complement_corner_compression_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.complement_projection_mul_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_jordan' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finite_injective_of_quadratic_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finite_jordan_of_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.finite_squares_of_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.normal_tracial_states_separate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universalComplementEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_weight_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_compression_kernel_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_finiteBlock_jordan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_finiteBlock_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientAssembly.universal_normal_trace_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientInverse.finiteBlock_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.FiniteQuotientInverse.finiteBlock_negative_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientInverse.lift_exp_negative_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientInverse.negativeInverseFamily_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientInverse.universal_finiteBlock_negative_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.FiniteQuotientInverse.universal_finiteBlock_negative_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.GenericBanach.spectral_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.GenericCLMInverse.ofInverses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.GenericCLMInverse.ofInverses_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.GenericCLMInverse.ofInverses_symm_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.GenericCLMInverse.rightInv_of_negLeftInv' depends on axioms: [propext]
+'SpectralIsometry.GenericCentralBlockIdentities.centralBlock_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.GenericCentralBlockIdentities.centralBlock_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.GenericCentralBlockIdentities.compression_of_corner_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.GenericCentralBlockIdentities.corner_square_zero_of_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.GenericCentralBlockIdentities.crossBlock_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.GenericCentralOffDiagonal.family_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.GlobalCenterValuedTrace.exists_faithful_normal_center_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.HilbertDomination.exists_positive_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.HilbertDomination.positive_domination_at_unitary_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InnerSimilarityExample.conjugation_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.InnerSimilarityExample.conjugation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.InnerSimilarityExample.conjugation_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.InnerSimilarityExample.conjugation_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InnerSimilarityExample.diagonal_similarity_not_star' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InnerSimilarityExample.exists_radius_preserving_nonstar_similarity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.isUnit_of_strongStar_quadratic_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.isUnit_of_two_quadratic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.left_inverse_of_quadratic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.operator_quadratic_bounds_of_inverse_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.positive_unit_spectral_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.right_inverse_of_quadratic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.scalar_le_star_mul_self_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.star_mul_self_inverse_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.star_mul_self_lower_of_inverse_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.two_quadratic_bounds_pass_to_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InverseOrderBounds.two_quadratic_lower_of_inverse_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.inverse_norm_eq_modulus_inverse_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.inverse_polar_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.minimum_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.modulus_complex_spectrum_isLeast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.modulus_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.modulus_spectral_infimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.modulus_spectrum_isLeast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.polarFactor_mem_unitary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.polar_boundary_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.polar_boundary_nonunit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.polar_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.polar_nearest_nonunit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.InvertiblePolarDistance.positive_unit_spectrum_isLeast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.JordanSpectral.linearEquiv_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.all_squares_of_selfadjoint_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutantAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutantAlgebra_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutantAlgebra_eq_common_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutantAlgebra_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutant_jacobson_eq_bot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutant_mul_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.imageBicommutant_norm_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.jacobson_eq_bot_of_norm_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.jordan_reduction_of_all_transported_leibniz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.radiusEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.relativeBicommutant_multiplicative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.relativeBicommutant_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.restrictedMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.restrictedMap_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.restrictedMap_preservesRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainReduction.restrictedMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MainReduction.selfadjoint_squares_of_all_transported_leibniz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainTransport.image_centralizer_eq_common_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainTransport.transportedCentralizerAlgebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MainTransport.transportedCentralizerAlgebra_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MatrixKaplansky.amplified_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MatrixKaplansky.contraction_finite_approx' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MatrixKaplansky.contraction_strongStar_finite_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.MatrixKaplansky.entry_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MatrixKaplansky.offDiagonal_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MatrixKaplansky.offDiagonal_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.MatrixKaplansky.representation_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NeighborhoodReindex.exists_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NeighborhoodReindex.index_atTop_neBot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.diagonalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.diagonalPositive_star_mul_self' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.norm_squares_tendsto_zero_at_normal_vector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.normalPositive_iff_universal_compressed_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.normalPositive_of_universal_compressed_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.normalProjection_apply_eq_self_of_diagonal_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalProjectionContinuity.strongStarTendsto_compressed_of_normalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalSeminorm.bundled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.bundled_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.exists_complex_seminorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.exists_generated_normal_seminorm_topology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalSeminorm.exists_normal_seminorm_topology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalSeminorm.gnsPair_norm_eq_seminorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.quadratic_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.seminormTendsto_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.seminorm_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.seminorm_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.strongStar_on_bounded_sets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.tendsto_topology_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.NormalSeminorm.tendsto_topology_iff_normalCompression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalSeminorm.tendsto_topology_iff_normalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.NormalSeminorm.topology_withSeminorms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.Normalization.central_contraction_perturbations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.central_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.Normalization.central_of_translation_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.eq_zero_of_one_add_sub_contractions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.exists_uniform_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.Normalization.exists_unital_radius_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.map_one_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.Normalization.map_one_central_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.Normalization.map_one_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.Normalization.norm_add_pow_le_of_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.norm_le_of_translation_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.radius_add_le_radius_add_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.Normalization.radius_mul_central_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.OffDiagonalFamily.differentiable_transported_component' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.OffDiagonalFamily.offDiagonal_family_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.OffDiagonalFamily.selfAdjoint_of_jordan_real_spectrum_shifts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.PrincipalVerification.entire_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.PrincipalVerification.main_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.PrincipalVerification.normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.QuadraticProjection.bilinear_eq_zero_of_projection_diagonal_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.ScalarNormalPart.four_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SourceClaims.angular_support_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SourceClaims.polar_nearest_nonunit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SourceClaims.square_zero_contour' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SourceClaims.square_zero_preservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareFamilyAssembly.central_family_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareFamilyAssembly.exp_derivation_of_squaresFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareFamilyAssembly.faithful_algHom_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareFamilyAssembly.of_central_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareFamilyAssembly.unitalSquares_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareZeroContour.image_contour' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareZeroContour.resolvent_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareZeroContour.square_zero_contour' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareZeroGrowth.inverse_linear_growth_of_quadratic_resolvent_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroGrowth.square_zero_of_inverse_linear_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreservation.image_square_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.all_weighted_projection_relations_of_bounded_strongStar_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_corner_spans' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_orthogonal_corner_copies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_orthogonal_properlyInfinite_corners' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.bounded_trace_zero_of_two_copies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.central_of_commutes_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.central_weight_of_all_projection_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.central_weight_of_bounded_strongStar_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.central_weight_of_corner_bounded_strongStar_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.commute_square_of_weightedProjectionRelation' depends on axioms: [propext]
+'SpectralIsometry.SquareZeroPreserver.commute_unitSquare_of_weightedProjectionRelation' depends on axioms: [propext]
+'SpectralIsometry.SquareZeroPreserver.corner_family_preserves_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.dyadic_projection_square_error_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.exists_commuting_corner_dyadic_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.exists_commuting_dyadic_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.exists_corner_isometries_of_properlyInfinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.exists_orthogonal_unitCopy_sequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.exists_orthogonal_unitCopy_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.exists_properlyInfinite_complement_projection_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.hasOrthogonalCopies_central_cut' depends on axioms: [propext]
+'SpectralIsometry.SquareZeroPreserver.hasOrthogonalCopies_of_contained_copy' depends on axioms: [propext]
+'SpectralIsometry.SquareZeroPreserver.hasOrthogonalCopies_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.properlyInfinite_of_hasOrthogonalCopies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.square_preserving_of_unital_projection_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.supportedSquareZero_span_dense_in_corner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.trace_on_corner_of_zero_on_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.twoCopyHom_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SquareZeroPreserver.weightedProjectionRelation_of_properlyInfinite_complements' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.exists_bounded_squareZero_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.exists_contraction_strongStar_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.exists_selfAdjoint_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.exists_squareZero_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.mul_vector_error_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.negPart_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.StrongStarApproximation.nilIndex_filter_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.nilpotent_support_projections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.norm_apply_sq_le_of_selfAdjoint_square_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.posPart_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.StrongStarApproximation.probeIndex_filter_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.squareZero_strongStar_finite_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.squareZero_support_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_cfcHomSuperset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_cfc_of_norm_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_dyadic_projections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_mul_of_norm_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_negPart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_of_uniform_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_posPart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_zero_of_projection_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongStarTendsto_zero_of_projection_predual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongTendsto_mul_of_left_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.StrongStarApproximation.strongTendsto_of_uniform_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportFunctionLimit.angular_support_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SupportFunctionLimit.farthestDistance_support_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportFunctionLimit.norm_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SupportIdentification.kernelComplement_eq_rangeSupport_star' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportIdentification.kernelComplement_is_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportIdentification.literal_nilpotent_supports' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportIdentification.mul_kernelComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SupportIdentification.rangeSupport_is_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportIdentification.rangeSupport_mem_bicommutant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportIdentification.rangeSupport_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.SupportIdentification.rangeSupport_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.SupportIdentification.squareZero_supports_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.TraceSeries.isUnit_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.one_le_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.rota_series_eq_literal_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.rota_series_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.rota_series_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.rota_series_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.rota_similarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.summable_literal_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.summable_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TraceSeries.tracial_state_radius_bound_via_series' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.TransportExp.exp_innerCLM_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TransportExp.exp_transportedCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TransportExp.exp_transportedCLM_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.TransportExp.exp_transportedCLM_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.UniversalBoundedNetAlgebra.exists_bounded_original_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalBoundedNetAlgebra.firstMap_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalBoundedNetAlgebra.index_fst_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalBoundedNetAlgebra.limitMap_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalBoundedNetAlgebra.squareZero_contraction_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalBoundedNetAlgebra.squareZero_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.contraction_approximants_from_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.exists_bounded_original_neighborhood_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.exists_squareZero_original_neighborhood_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.firstMap_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.limitMap_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.squareZero_contraction_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.UniversalNeighborhoodNetAlgebra.squareZero_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.WeakHilbertBounds.norm_sq_le_of_weak_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.WeakHilbertBounds.tendsto_zero_of_norm_sq_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.WeakStarFunctional.continuous_iff_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.WeakStarFunctional.exists_evaluation_of_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.WeightedFamilyResult.corner_family_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.WeightedFamilyResult.offDiagonal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.WeightedFamilyResult.proper_corner_family_result' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SpectralIsometry.central_spectrum_circle_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.closed_subalgebra_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.derivation_kernel_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.distance_to_nonunits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.entire_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.eq_zero_of_norm_radius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.exp_derivation_automorphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.exp_derivation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.exp_squares_iff_derivation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.holomorphic_selfadjoint_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.image_selfadjoint_resolvent_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.injective_of_preservesRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.isometric_algHom_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.jordan_derivation_is_derivation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.jordan_isomorphism_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.main_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.mul_comm_of_norm_le_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.normal_real_spectrum_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.radius_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.relativeBicommutant_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.relativeBicommutant_commCStarAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.relativeBicommutant_mul_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.scalar_circle_rpow_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.scalar_circle_rpow_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.selfadjoint_image_perturbation_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.selfadjoint_image_real_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.selfadjoint_jordan_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.selfadjoint_of_real_spectrum_shifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.selfadjoint_perturbation_spectral_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.spectral_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.square_preserving_of_trace_pairings' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.square_zero_constant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.square_zero_perturbation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.square_zero_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.square_zero_support_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.squares_of_selfadjoint_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.trace_cubic_polarization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.trace_entire_group_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.trace_quadratic_polarization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.tracial_state_spectralRadius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SpectralIsometry.translated_radius' depends on axioms: [propext, Classical.choice, Quot.sound]

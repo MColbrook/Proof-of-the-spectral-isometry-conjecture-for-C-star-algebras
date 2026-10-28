@@ -1,0 +1,64 @@
+name: Lean verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      components:
+        description: Check all 68 component and principal statements
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Build and check proofs
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      LEAN_NUM_THREADS: 2
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Require the committed dependency lockfile
+        run: git ls-files --error-unmatch lake-manifest.json
+      - name: Prepare metadata validation
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check -r scripts/requirements.txt
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+      - name: Check the project before building
+        run: python3 scripts/check_project.py
+      - uses: leanprover/lean-action@38fbc41a8c28c4cbaec22d7f7de508ec2e7c0dd9
+        with:
+          build: false
+      - name: Prepare the Linux sandbox
+        # Matches Palomar's disposable-runner setup. Verification never uses
+        # the no-sandbox override.
+        run: |
+          sudo apt-get update -qq >/dev/null
+          sudo apt-get install -y -qq bubblewrap >/dev/null
+          if sysctl kernel.apparmor_restrict_unprivileged_userns >/dev/null 2>&1; then
+            sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+          fi
+      - name: Verify the principal results
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.components }}
+        run: bash scripts/verify.sh
+      - name: Verify all component statements
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.components }}
+        run: bash scripts/verify.sh --components
+      - name: Preserve actual verification output
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: verification-output
+          path: verification-output/
+          if-no-files-found: ignore

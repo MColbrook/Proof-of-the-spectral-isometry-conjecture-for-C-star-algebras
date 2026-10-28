@@ -1,0 +1,28 @@
+name = "spectral_isometries"
+version = "1.0.0"
+defaultTargets = ["SpectralIsometry", "Challenge", "Solution", "AxiomReport", "ComponentChallenge", "OAI"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "b63f6e8a68d220e3b3bc4f3792bb53650d375f24"
+
+[[lean_lib]]
+name = "SpectralIsometry"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
+
+[[lean_lib]]
+name = "AxiomReport"
+
+[[lean_lib]]
+name = "ComponentChallenge"
+roots = ["Verification.ComponentChallenge"]
+
+[[lean_lib]]
+name = "OAI"
+srcDir = "vendor"

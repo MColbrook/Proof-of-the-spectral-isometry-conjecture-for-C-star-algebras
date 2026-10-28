@@ -1,0 +1,167 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: v0.4
+project:
+  name: A proof of the spectral isometry conjecture for C*-algebras
+  description: >-
+    A formal proof that every unital surjective complex-linear spectral isometry
+    between arbitrary complex unital C*-algebras is an algebraic Jordan
+    isomorphism. The development also proves that a bounded generator whose
+    exponentials are unital spectral isometries at every complex parameter is
+    an associative derivation, and that every surjective spectral isometry is
+    a unital Jordan isomorphism multiplied by its prescribed central unitary
+    value at the identity.
+  authors:
+    - Matthew J. Colbrook
+    - George Stepaniants
+  responsible_maintainers:
+    - Matthew J. Colbrook
+    - George Stepaniants
+  license: Apache-2.0
+repository:
+  role: substantive-development
+classification:
+  arxiv: [math.OA, math.FA]
+  msc2020: [46L05, 47A65]
+sources:
+  - title: Spectral isometries of unital C*-algebras
+    authors: [Matthew J. Colbrook, George Stepaniants]
+    type: paper
+    relationship: formalizes
+    id: spectral_isometry_proof.tex
+    note: >-
+      Unpublished manuscript supplied for formalization. The three principal
+      statements correspond to Theorem 1.1, the entire-group proposition and
+      the normalization corollary. Bibliographic references in the manuscript
+      supply mathematical context; no unproved literature axiom is used.
+  - title: Mathlib
+    authors: [The Mathlib contributors]
+    type: other
+    relationship: background
+    id: https://github.com/leanprover-community/mathlib4/tree/b63f6e8a68d220e3b3bc4f3792bb53650d375f24
+    license: Apache-2.0
+    note: Spectral theory, functional calculus, complex analysis, algebra and proof-producing tactics.
+  - title: First results on spectrally bounded operators
+    authors: [M. Mathieu, G. J. Schick]
+    type: paper
+    relationship: background
+    id: https://doi.org/10.4064/sm152-2-6
+    note: Studia Mathematica 152 (2002), 187–199; Conjecture 4.6 gives the standard spectral isometry conjecture.
+  - title: A collection of problems on spectrally bounded operators
+    authors: [M. Mathieu]
+    type: paper
+    relationship: background
+    id: https://doi.org/10.1142/S1793557109000418
+    note: Asian-European Journal of Mathematics 2 (2009), 487–501; see Problem 5.
+  - title: OpenAI mathematics operator-algebra formalization
+    authors: [OpenAI mathematics formalization and its contributors]
+    type: other
+    relationship: background
+    id: https://github.com/openai/math/tree/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean
+    license: Apache-2.0
+    note: >-
+      The Apache-2.0 compatibility ports in vendor/OAI provide preduals,
+      universal representations, Kaplansky density, finite traces, central
+      decompositions and properly infinite projection structure. Original
+      mathematical authorship and notices are retained. See NOTICE and
+      docs/Attribution.md.
+related_formalizations: []
+status:
+  scope: >-
+    The default Comparator configuration records the three principal results.
+    The optional component configuration records 68 principal and supporting
+    statements. The library also includes the canonical bidual constructions,
+    normal centre-valued traces, bounded strong-star net algebra and
+    square-zero lifts. All hypotheses of the principal statements are
+    preserved, including ordinary complex-linear input maps and zero algebras.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+  main_results:
+    - declaration: SpectralIsometry.main_result
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: comparator.json
+      literature_dependencies: []
+    - declaration: SpectralIsometry.entire_group
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: comparator.json
+      literature_dependencies: []
+    - declaration: SpectralIsometry.normalization
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: comparator.json
+      literature_dependencies: []
+automation:
+  methods:
+    - method: agent
+      models: [GPT-6-based Codex; precise service model identifier unavailable]
+      framework: Codex with separate proof-development and review agents
+      tool_setup: >-
+        Lean 4.35.0-rc3, Mathlib, proof-producing tactics and the toolchain's
+        bundled Comparator. Parallel Linux builds and kernel checks run on
+        VT_gauss. The publication tree has no execution-based proof oracle.
+      cost:
+        spend_usd: not tracked
+        hardware: Windows orchestration and Linux verification on VT_gauss
+  notes: >-
+    AI agents produced substantial proof developments, source organization
+    and separate reviews for the Lean formalization under human project
+    direction. AI assistance was for the Lean formalization, verification
+    and review, not writing the manuscript. Reviewers consulted the manuscript
+    as the source for statement-fidelity checks. AI contributions are disclosed
+    here; the named authors and responsible maintainers are humans.
+    No independent human proof review is claimed.
+fidelity:
+  divergences: >-
+    The principal hypotheses and conclusions are unchanged. The formal proof
+    establishes square-zero preservation by a Liouville argument before the
+    contour identity, and uses constructed preduals and normal compression
+    for bounded-set strong-star continuity. The properly infinite argument
+    proves the needed normal C*-corner application. Required C*-cases of
+    cited structural theorems are proved internally; wider literature
+    generalizations and every optional prose proof route are not claimed
+    as separately formalized. Spectral radius uses Mathlib's extended
+    nonnegative convention, with zero cases handled explicitly.
+review:
+  status: agent-reviewed
+  reviewers:
+    - Separate AI source and statement-fidelity reviewers
+    - Separate AI proof-correctness and axiom-dependency reviewers
+    - Separate AI module-migration and release-documentation reviewers
+  notes: >-
+    Separate AI reviews cover the full-strength Lean statements and complete
+    Lean proof bodies. The manuscript was consulted for statement-fidelity
+    checks; AI assistance was not used to write it.
+    The module cleanup is independently checked for preservation
+    of mathematical tokens and import order. These reviews share model and
+    workspace context and are not human or blinded reviews. The cleaned release
+    passed a fresh complete build, 507 consolidated axiom reports and both
+    Comparator configurations with all six bundled kernels on 28 October 2026.
+    Actual commands and output are retained in docs/Verification.md and
+    docs/reports/. No independent human proof review or registry acceptance
+    is claimed.
+alignment:
+  namespace: SpectralIsometry
+  statements:
+    - source: Theorem 1.1
+      lean: SpectralIsometry.main_result
+      module: Solution
+      status: proved
+      note: Arbitrary complex unital C*-algebras and ordinary surjective complex-linear maps.
+    - source: Entire-group proposition
+      lean: SpectralIsometry.entire_group
+      module: Solution
+      status: proved
+      note: Every complex parameter; associative Leibniz identity and multiplicative bijective exponentials.
+    - source: Normalization corollary
+      lean: SpectralIsometry.normalization
+      module: Solution
+      status: proved
+      note: The prescribed factor T(1) is central and unitary; no unital-map hypothesis is added.
+acknowledgements: >-
+  Mathlib contributors, the OpenAI mathematics formalization and its
+  contributors, and the Lean and independent-kernel developers.

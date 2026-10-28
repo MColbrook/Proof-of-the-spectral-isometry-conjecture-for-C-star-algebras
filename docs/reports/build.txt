@@ -1,0 +1,2953 @@
+Actual release verification output
+Date: 2026-10-28
+Host: VT_gauss (Linux)
+Toolchain: leanprover/lean4:v4.35.0-rc3
+Command: lake build
+Exit status: 0
+
+✔ [4015/4366] Built SpectralIsometry.Bicommutant (3.2s)
+✔ [4016/4366] Built SpectralIsometry.GenericNeighborhoodReindex (1.9s)
+✔ [4017/4366] Built OAI.Analysis.BoundedHochschild.CompactInvariantSets (2.1s)
+⚠ [4018/4366] Built SpectralIsometry.SquareZeroCopies (2.3s)
+warning: SpectralIsometry/SquareZeroCopies.lean:30:5: Variable name `hpq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4019/4366] Built SpectralIsometry.GenericCLMInverse (2.7s)
+✔ [4020/4370] Built SpectralIsometry.GenericWeakStarFunctional (3.2s)
+⚠ [4021/4370] Built SpectralIsometry.WeakHilbertBounds (3.1s)
+warning: SpectralIsometry/WeakHilbertBounds.lean:58:0: automatically included section variable(s) unused in theorem `SpectralIsometry.WeakHilbertBounds.tendsto_zero_of_norm_sq_bound`:
+  [InnerProductSpace ℂ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4022/4370] Replayed Challenge
+warning: Challenge.lean:37:8: declaration uses `sorry`
+warning: Challenge.lean:42:8: declaration uses `sorry`
+warning: Challenge.lean:55:8: declaration uses `sorry`
+✔ [4024/4372] Built OAI.Prelude (3.5s)
+⚠ [4025/4372] Built SpectralIsometry.StrongStarApproximation (3.4s)
+warning: SpectralIsometry/StrongStarApproximation.lean:37:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.mul_vector_error_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/StrongStarApproximation.lean:48:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.strongTendsto_mul_of_left_norm_bound`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4026/4372] Built SpectralIsometry.GenericDualIsometry (3.5s)
+✔ [4027/4372] Built SpectralIsometry.SquareZeroPreserver (3.3s)
+✔ [4028/4372] Built OAI.Analysis.BoundedHochschild.CompactConvexCenter (3.6s)
+✔ [4029/4372] Built OAI.Analysis.BoundedHochschild.WeakCompactFragment (3.0s)
+⚠ [4030/4372] Built SpectralIsometry.SquareZeroGrowth (4.7s)
+warning: SpectralIsometry/SquareZeroGrowth.lean:87:0: automatically included section variable(s) unused in theorem `SpectralIsometry.SquareZeroGrowth.inverse_linear_growth_of_quadratic_resolvent_growth`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4031/4372] Built SpectralIsometry.SquareZeroProjectionAlgebra (2.8s)
+⚠ [4032/4372] Built SpectralIsometry.SubalgebraRadius (3.1s)
+warning: SpectralIsometry/SubalgebraRadius.lean:43:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4033/4372] Built SpectralIsometry.TransportKernel (3.7s)
+✔ [4034/4372] Built SpectralIsometry.InnerSimilarityExample (4.3s)
+✔ [4035/4372] Built SpectralIsometry.DyadicThresholdEstimate (6.5s)
+✔ [4036/4372] Built SpectralIsometry.SquareZeroTrace (4.9s)
+✔ [4037/4372] Built SpectralIsometry.SupportFunctionLimit (4.1s)
+✔ [4038/4372] Built OAI.Analysis.Commutator.ScalarUltralimit (3.8s)
+✔ [4039/4372] Built OAI.Analysis.BoundedHochschild.ProductTaylor (3.9s)
+✔ [4040/4372] Built OAI.Analysis.BoundedHochschild.AbelianPartitions (4.2s)
+✔ [4041/4372] Built OAI.Analysis.Commutator.BicommutantOrbit (5.5s)
+✔ [4042/4372] Built OAI.Analysis.Commutator.LittleGrothendieck (6.8s)
+⚠ [4043/4372] Built Verification.ComponentChallenge (8.0s)
+warning: Verification/ComponentChallenge.lean:73:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:76:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:80:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:86:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:90:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:94:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:98:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:104:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:111:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:116:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:122:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:130:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:138:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:147:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:153:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:159:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:164:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:170:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:175:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:191:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:205:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:216:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:226:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:230:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:234:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:239:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:249:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:253:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:264:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:273:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:284:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:295:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:309:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:322:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:334:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:340:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:346:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:359:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:374:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:387:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:392:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:407:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:411:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:415:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:432:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:446:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:461:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:467:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:481:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:492:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:508:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:515:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:519:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:538:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:543:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:548:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:552:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:557:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:562:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:566:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:571:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:586:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:599:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:615:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:636:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:640:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:647:8: declaration uses `sorry`
+warning: Verification/ComponentChallenge.lean:652:8: declaration uses `sorry`
+✔ [4045/4372] Built OAI.Analysis.Commutator.KaplanskyRational (7.1s)
+✔ [4046/4372] Built OAI.Analysis.BoundedHochschild.CatalanWords (5.8s)
+✔ [4047/4372] Built OAI.Analysis.BoundedHochschild.MomentNorms (5.0s)
+⚠ [4048/4372] Built SpectralIsometry.InverseOrderBounds (5.7s)
+warning: SpectralIsometry/InverseOrderBounds.lean:115:51: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/InverseOrderBounds.lean:157:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/InverseOrderBounds.lean:160:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4049/4372] Built OAI.Analysis.Commutator.VonNeumannCStar (8.4s)
+⚠ [4051/4381] Built SpectralIsometry.StrongStarCFC (6.3s)
+warning: SpectralIsometry/StrongStarCFC.lean:33:16: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/StrongStarCFC.lean:35:26: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/StrongStarCFC.lean:63:15: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/StrongStarCFC.lean:37:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.strongTendsto_of_uniform_approx`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4052/4381] Built SpectralIsometry.GenericTransposeCore (3.6s)
+⚠ [4053/4381] Built SpectralIsometry.BoundedInverseLimit (4.5s)
+warning: SpectralIsometry/BoundedInverseLimit.lean:35:4: Try this: intro ξ _ η hη
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+warning: SpectralIsometry/BoundedInverseLimit.lean:43:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.BoundedInverseLimit.0.SpectralIsometry.BoundedInverseLimit.norm_le_of_left_inverse`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4054/4381] Built OAI.Analysis.Commutator.CyclicMatrix (10s)
+✔ [4055/4381] Built OAI.Analysis.BoundedHochschild.MatrixDilation (8.8s)
+✔ [4056/4381] Built OAI.Analysis.BoundedHochschild.MinimalIsometricOrbit (3.6s)
+⚠ [4057/4381] Built SpectralIsometry.DyadicProjectionStrong (3.0s)
+warning: SpectralIsometry/DyadicProjectionStrong.lean:37:13: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/DyadicProjectionStrong.lean:37:43: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/DyadicProjectionStrong.lean:55:24: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/DyadicProjectionStrong.lean:70:16: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+✔ [4058/4381] Built OAI.Analysis.BoundedHochschild.RareScales (4.1s)
+✔ [4059/4381] Built OAI.Analysis.Commutator.HilbertSequence (4.4s)
+⚠ [4060/4381] Built SpectralIsometry.NilpotentSupports (9.5s)
+warning: SpectralIsometry/NilpotentSupports.lean:49:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentSupports.0.SpectralIsometry.StrongStarApproximation.kernel_invariant`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentSupports.lean:57:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentSupports.0.SpectralIsometry.StrongStarApproximation.rangeClosure_invariant`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentSupports.lean:91:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupports.lean:92:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupports.lean:117:35: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NilpotentSupports.lean:156:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupports.lean:157:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4061/4381] Built SpectralIsometry.Basic (17s)
+warning: SpectralIsometry/Basic.lean:310:6: `stdSimplex` has been deprecated: Use `Convexity.StdSimplex` instead
+
+Note: The updated constant has a different type:
+  (R : Type u) → [LE R] → [AddCommMonoid R] → [One R] → Type v → Type (max u v)
+instead of
+  (𝕜 : Type u_2) → (ι : Type u_1) → [Semiring 𝕜] → [PartialOrder 𝕜] → [Fintype ι] → Set (ι → 𝕜)
+warning: SpectralIsometry/Basic.lean:315:6: `isCompact_stdSimplex` has been deprecated: Use `Convexity.StdSimplex.compactSpace` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) (M : Type u_2) [inst : Ring R] [inst_1 : TopologicalSpace R] [IsTopologicalRing R]
+    [inst_3 : PartialOrder R] [inst_4 : IsStrictOrderedRing R] [CompactIccSpace R] [OrderClosedTopology R] [Finite M],
+    CompactSpace (Convexity.StdSimplex R M)
+instead of
+  ∀ (𝕜 : Type u_1) (ι : Type u_2) [inst : Fintype ι] [inst_1 : TopologicalSpace 𝕜] [inst_2 : Semiring 𝕜]
+    [inst_3 : PartialOrder 𝕜] [OrderClosedTopology 𝕜] [ContinuousAdd 𝕜] [CompactIccSpace 𝕜] [IsOrderedAddMonoid 𝕜],
+    IsCompact (stdSimplex 𝕜 ι)
+warning: SpectralIsometry/Basic.lean:795:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:820:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:835:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:876:0: automatically included section variable(s) unused in theorem `SpectralIsometry.eq_zero_of_norm_radius_bound`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:896:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1102:0: automatically included section variable(s) unused in theorem `SpectralIsometry.JordanDerivationAlgebra.polarize_zero_pairs`:
+  [Algebra ℂ A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra ℂ A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1268:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1273:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1279:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1355:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.TraceBound.rotaSum_succ`:
+  [PartialOrder A]
+  [StarOrderedRing A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PartialOrder A] [StarOrderedRing A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1448:10: This simp argument is unused:
+  abs_of_nonneg t.2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [s, smul_pow, norm_smul, Real.norm_eq_abs, inv_pow, div_eq_mul_inv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Basic.lean:1476:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1477:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1498:6: `stdSimplex` has been deprecated: Use `Convexity.StdSimplex` instead
+
+Note: The updated constant has a different type:
+  (R : Type u) → [LE R] → [AddCommMonoid R] → [One R] → Type v → Type (max u v)
+instead of
+  (𝕜 : Type u_2) → (ι : Type u_1) → [Semiring 𝕜] → [PartialOrder 𝕜] → [Fintype ι] → Set (ι → 𝕜)
+warning: SpectralIsometry/Basic.lean:1503:6: `isCompact_stdSimplex` has been deprecated: Use `Convexity.StdSimplex.compactSpace` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) (M : Type u_2) [inst : Ring R] [inst_1 : TopologicalSpace R] [IsTopologicalRing R]
+    [inst_3 : PartialOrder R] [inst_4 : IsStrictOrderedRing R] [CompactIccSpace R] [OrderClosedTopology R] [Finite M],
+    CompactSpace (Convexity.StdSimplex R M)
+instead of
+  ∀ (𝕜 : Type u_1) (ι : Type u_2) [inst : Fintype ι] [inst_1 : TopologicalSpace 𝕜] [inst_2 : Semiring 𝕜]
+    [inst_3 : PartialOrder 𝕜] [OrderClosedTopology 𝕜] [ContinuousAdd 𝕜] [CompactIccSpace 𝕜] [IsOrderedAddMonoid 𝕜],
+    IsCompact (stdSimplex 𝕜 ι)
+warning: SpectralIsometry/Basic.lean:1554:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.GenericBanach.translated_radius`:
+  [CompleteSpace A]
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace A] [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1564:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.GenericBanach.spectrum_subset_closedHull_of_translated_radius`:
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1704:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.positive_character`:
+  [CompleteSpace A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1717:4: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smul_eq_mul, mul_one, pow_two, Complex.mul_im, Complex.mul_re, Complex.sub_im, Complex.sub_re, hi,
+    hr, sub_self, mul_zero, zero_mul, add_zero, sub_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Basic.lean:1723:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.functional_quadratic`:
+  [CompleteSpace A]
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace A] [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1757:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.injective_radius_map`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1828:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.Basic.0.SpectralIsometry.CommutativeReduction.jordan_product_from_selfadjoint`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:1904:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:1905:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2123:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2129:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2230:0: automatically included section variable(s) unused in theorem `SpectralIsometry.AutomaticContinuity.banach_circle_rpow_mean`:
+  [CompleteSpace E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/Basic.lean:2422:31: `Set.setOf_mem_eq` has been deprecated: Use `Set.ofPred_mem_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵m̵e̵m̵_̵e̵q̵o̲f̲P̲r̲e̲d̲_̲m̲e̲m̲_̲e̲q̲
+warning: SpectralIsometry/Basic.lean:2633:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2634:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2642:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2643:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2649:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2650:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2665:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: SpectralIsometry/Basic.lean:2693:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2694:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2794:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2795:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Basic.lean:2829:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: SpectralIsometry/Basic.lean:2855:70: This simp argument is unused:
+  Pi.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hzero, one_apply_eq_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Basic.lean:2855:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [4062/4381] Built OAI.Analysis.BoundedHochschild.FreeWords (5.9s)
+✔ [4063/4381] Built OAI.Analysis.Commutator.HilbertTensors (4.2s)
+✔ [4064/4381] Built OAI.Analysis.Commutator.FiniteStrongTest (5.7s)
+✔ [4065/4381] Built OAI.Analysis.BoundedHochschild.Cochains (12s)
+✔ [4066/4381] Built OAI.Analysis.BoundedHochschild.HarmonicSums (13s)
+✔ [4067/4381] Built OAI.Analysis.BoundedHochschild.WeakIsometricFixedPoint (4.2s)
+✔ [4068/4381] Built OAI.Analysis.Commutator.FiniteTestHahnBanach (6.0s)
+ℹ [4069/4381] Built SpectralIsometry.GenericTranspose (5.8s)
+info: SpectralIsometry/GenericTranspose.lean:37:0: ContinuousLinearMap.hasOpNorm
+✔ [4070/4381] Built SpectralIsometry.JordanSpectral (2.9s)
+✔ [4071/4381] Built OAI.Analysis.BoundedHochschild.FinitePhases (4.8s)
+⚠ [4072/4381] Built SpectralIsometry.Normalization (4.5s)
+warning: SpectralIsometry/Normalization.lean:98:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:102:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:101:18: This simp argument is unused:
+  spectrum.spectralRadius_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ha, hz]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Normalization.lean:167:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:208:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/Normalization.lean:191:61: This simp argument is unused:
+  Units.inv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_mul, mul_assoc, Units.mul_inv, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/Normalization.lean:191:76: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_mul, mul_assoc, Units.mul_inv, Units.inv_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4073/4381] Built SpectralIsometry.StrongStarCuts (9.1s)
+warning: SpectralIsometry/StrongStarCuts.lean:33:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:40:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:43:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:80:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/StrongStarCuts.lean:86:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4074/4381] Built OAI.Analysis.Commutator.HilbertTensors2 (3.2s)
+✔ [4075/4381] Built OAI.Analysis.BoundedHochschild.FreeCoefficients (6.4s)
+✔ [4076/4381] Built SpectralIsometry.ConcreteCornerOperators (16s)
+⚠ [4077/4381] Built SpectralIsometry.InvertiblePolarDistance (4.4s)
+warning: SpectralIsometry/InvertiblePolarDistance.lean:26:0: automatically included section variable(s) unused in theorem `SpectralIsometry.InvertiblePolarDistance.modulus_isUnit`:
+  [Nontrivial A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nontrivial A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4078/4381] Built OAI.Analysis.Commutator.LittleGrothendieckSequence (7.2s)
+✔ [4079/4381] Built SpectralIsometry.TransportExp (6.6s)
+✔ [4080/4381] Built OAI.Analysis.Commutator.OperatorAmplification (10s)
+⚠ [4081/4381] Built SpectralIsometry.SquareZeroPreservation (5.4s)
+warning: SpectralIsometry/SquareZeroPreservation.lean:74:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/SquareZeroPreservation.lean:76:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/SquareZeroPreservation.lean:81:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4082/4381] Built OAI.Analysis.BoundedHochschild.Haagerup (12s)
+✔ [4083/4381] Built OAI.Analysis.BoundedHochschild.IsometricFixedPoint (3.8s)
+⚠ [4084/4381] Built SpectralIsometry.OffDiagonalFamily (4.2s)
+warning: SpectralIsometry/OffDiagonalFamily.lean:63:25: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+✔ [4085/4381] Built OAI.Analysis.Commutator.MultilinearTensors (3.7s)
+⚠ [4086/4381] Built SpectralIsometry.NormalizationUnitary (4.0s)
+warning: SpectralIsometry/NormalizationUnitary.lean:55:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:61:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:62:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:82:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:83:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:8: This simp argument is unused:
+  smul_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_sub,
+    smul_mul_assoc, mul_smul_comm, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:26: This simp argument is unused:
+  smul_mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_add, smul_sub,
+    mul_smul_comm, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:41: This simp argument is unused:
+  mul_smul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_add, smul_sub,
+    smul_mul_assoc, smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:105:55: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_add, star_smul, star_trivial, star_sub, star_one, star_mul, star_star, smul_add, smul_sub,
+    smul_mul_assoc, mul_smul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/NormalizationUnitary.lean:106:49: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [4087/4381] Built SpectralIsometry.SquareZeroContour (3.7s)
+warning: SpectralIsometry/SquareZeroContour.lean:29:37: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Algebra.algebraMap_eq_smul_one, sub_mul, mul_add, mul_smul_comm, smul_mul_assoc, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/SquareZeroContour.lean:39:37: This simp argument is unused:
+  smul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Algebra.algebraMap_eq_smul_one, mul_sub, add_mul, mul_smul_comm, smul_mul_assoc, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [4088/4381] Built OAI.Analysis.BoundedHochschild.CochainLimits (8.7s)
+✔ [4089/4381] Built OAI.Analysis.BoundedHochschild.TracialModulus (8.8s)
+⚠ [4090/4381] Built SpectralIsometry.MainReduction (4.8s)
+warning: SpectralIsometry/MainReduction.lean:96:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReduction.lean:112:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReduction.lean:145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReduction.lean:146:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4091/4381] Built OAI.Analysis.BoundedHochschild.PositiveDecomposition (13s)
+✔ [4092/4381] Built OAI.Analysis.Commutator.CoefficientForm (3.7s)
+✔ [4093/4381] Built OAI.Analysis.BoundedHochschild.Catalan (5.2s)
+⚠ [4094/4381] Built SpectralIsometry.HilbertDomination (7.2s)
+warning: SpectralIsometry/HilbertDomination.lean:68:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: SpectralIsometry/HilbertDomination.lean:168:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/HilbertDomination.lean:169:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4095/4381] Built OAI.Analysis.BoundedHochschild.CollisionBounds (6.4s)
+✔ [4096/4381] Built SpectralIsometry.SupportingTheorems (3.0s)
+✔ [4097/4381] Built OAI.Analysis.Commutator.KaplanskySelfAdjoint (8.8s)
+⚠ [4098/4381] Built SpectralIsometry.MainReductionSquares (4.7s)
+warning: SpectralIsometry/MainReductionSquares.lean:75:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReductionSquares.lean:76:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReductionSquares.lean:89:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/MainReductionSquares.lean:90:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4099/4381] Built OAI.Analysis.Commutator.CoefficientForm2 (5.5s)
+✔ [4100/4381] Built OAI.Analysis.BoundedHochschild.PolarApproximation (4.7s)
+✔ [4101/4381] Built OAI.Analysis.BoundedHochschild.CochainAverages (5.9s)
+✔ [4102/4381] Built OAI.Analysis.Commutator.KaplanskyDensity (6.4s)
+✔ [4103/4381] Built OAI.Analysis.BoundedHochschild.BlockSpans (5.1s)
+✔ [4104/4381] Built OAI.Analysis.Commutator.NormalPredual (6.4s)
+✔ [4105/4381] Built OAI.Analysis.BoundedHochschild.CentralHomotopy (15s)
+✔ [4106/4381] Built OAI.Analysis.BoundedHochschild.PowerRigidity (15s)
+✔ [4107/4381] Built OAI.Analysis.BoundedHochschild.CStarQuotients (6.1s)
+✔ [4108/4381] Built OAI.Analysis.BoundedHochschild.FirstLetter (4.8s)
+⚠ [4109/4381] Built SpectralIsometry.MatrixKaplansky (16s)
+warning: SpectralIsometry/MatrixKaplansky.lean:72:0: automatically included section variable(s) unused in theorem `SpectralIsometry.MatrixKaplansky.single_norm`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4110/4381] Built OAI.Analysis.BoundedHochschild.BarDifferential (11s)
+⚠ [4111/4381] Built SpectralIsometry.KaplanskyNets (4.1s)
+warning: SpectralIsometry/KaplanskyNets.lean:28:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.probeIndex_filter_neBot`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/KaplanskyNets.lean:32:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.strongTendsto_of_probe_errors`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/KaplanskyNets.lean:83:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4112/4381] Built OAI.Analysis.BoundedHochschild.Ultrapowers (15s)
+⚠ [4113/4381] Built SpectralIsometry.NilpotentApproximation (7.7s)
+warning: SpectralIsometry/NilpotentApproximation.lean:40:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentApproximation.0.SpectralIsometry.StrongStarApproximation.fst_tendsto_probe`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentApproximation.lean:47:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentApproximation.0.SpectralIsometry.StrongStarApproximation.snd_tendsto_probe`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentApproximation.lean:54:0: automatically included section variable(s) unused in theorem `SpectralIsometry.StrongStarApproximation.nilIndex_filter_neBot`:
+  [NormedAddCommGroup H]
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentApproximation.lean:116:16: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NilpotentApproximation.lean:118:41: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NilpotentApproximation.lean:183:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4114/4381] Built OAI.Analysis.BoundedHochschild.Martingales (4.9s)
+✔ [4115/4381] Built OAI.Analysis.BoundedHochschild.AsymptoticRigidity (6.0s)
+✔ [4116/4381] Built OAI.Analysis.BoundedHochschild.WalkEndpoints (7.9s)
+✔ [4117/4381] Built OAI.Analysis.BoundedHochschild.WalkSelection (6.7s)
+✔ [4118/4381] Built OAI.Analysis.BoundedHochschild.Liouville (12s)
+✔ [4119/4381] Built OAI.Analysis.BoundedHochschild.PrimitiveAverages (10s)
+✔ [4120/4381] Built OAI.Analysis.BoundedHochschild.NormalModulus (8.9s)
+⚠ [4121/4381] Built SpectralIsometry.NilpotentSupportIdentification (6.0s)
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:39:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:43:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:76:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:77:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:90:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:101:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:102:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:107:6: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:134:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.NilpotentSupportIdentification.0.SpectralIsometry.SupportIdentification.rangeClosure_invariant`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/NilpotentSupportIdentification.lean:158:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4122/4381] Built OAI.Analysis.BoundedHochschild.Dixmier (9.7s)
+✔ [4123/4381] Built OAI.Analysis.BoundedHochschild.FiniteConstraints (9.0s)
+✔ [4124/4381] Built OAI.Analysis.BoundedHochschild.DiffuseProjections (6.6s)
+✔ [4125/4381] Built OAI.Analysis.BoundedHochschild.WalkLabels (31s)
+✔ [4126/4381] Built OAI.Analysis.BoundedHochschild.PathStages (11s)
+✔ [4127/4381] Built OAI.Analysis.BoundedHochschild.FinitePaths (5.3s)
+✔ [4128/4381] Built OAI.Analysis.BoundedHochschild.CentralPrimitives (7.1s)
+✔ [4129/4381] Built OAI.Analysis.BoundedHochschild.PathWords (7.1s)
+✔ [4130/4381] Built OAI.Analysis.BoundedHochschild.TraceExpectations (9.8s)
+✔ [4131/4381] Built OAI.Analysis.BoundedHochschild.ExponentialLifts (7.6s)
+✔ [4132/4381] Built OAI.Analysis.BoundedHochschild.SeparablePrimitives (9.5s)
+✔ [4133/4381] Built OAI.Analysis.BoundedHochschild.WeakSubspaces (9.0s)
+✔ [4134/4381] Built OAI.Analysis.BoundedHochschild.StarPreduals (10s)
+✔ [4135/4381] Built OAI.Analysis.BoundedHochschild.WeakAlgebras (17s)
+✔ [4136/4381] Built OAI.Analysis.BoundedHochschild.MonotoneLimits (21s)
+✔ [4137/4381] Built OAI.Analysis.BoundedHochschild.SpectralProjections (11s)
+✔ [4138/4381] Built SpectralIsometry.CommutingDyadicProjection (6.7s)
+✔ [4139/4381] Built OAI.Analysis.BoundedHochschild.UnitaryLifts (8.0s)
+✔ [4140/4381] Built OAI.Analysis.BoundedHochschild.NormalMultiplication (12s)
+✔ [4141/4381] Built OAI.Analysis.BoundedHochschild.CochainLimitDifferential (4.8s)
+✔ [4142/4381] Built OAI.Analysis.BoundedHochschild.ProjectionChainSuprema (5.2s)
+✔ [4143/4381] Built OAI.Analysis.BoundedHochschild.CentralProjectionSuprema (5.4s)
+✔ [4144/4381] Built OAI.Analysis.BoundedHochschild.ProjectionSequenceLimits (3.7s)
+✔ [4145/4381] Built OAI.Analysis.BoundedHochschild.OperatorPrimitives (9.6s)
+✔ [4146/4381] Built OAI.Analysis.BoundedHochschild.CentralProjectionPartitions (4.5s)
+✔ [4147/4381] Built OAI.Analysis.BoundedHochschild.PartialIsometries (8.1s)
+✔ [4148/4381] Built OAI.Analysis.BoundedHochschild.PartialIsometryChains (5.0s)
+✔ [4149/4381] Built OAI.Analysis.BoundedHochschild.NormalVectors (24s)
+✔ [4150/4381] Built OAI.Analysis.BoundedHochschild.PartialUnitaries (7.1s)
+✔ [4151/4381] Built OAI.Analysis.BoundedHochschild.MatrixSystems (9.3s)
+✔ [4152/4381] Built OAI.Analysis.BoundedHochschild.MixedWords (6.7s)
+⚠ [4153/4381] Built SpectralIsometry.GenericNormalProjectionContinuity (7.7s)
+warning: SpectralIsometry/GenericNormalProjectionContinuity.lean:84:0: automatically included section variable(s) unused in theorem `SpectralIsometry.NormalProjectionContinuity.norm_squares_tendsto_zero_at_normal_vector`:
+  [CompleteSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/GenericNormalProjectionContinuity.lean:92:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.GenericNormalProjectionContinuity.0.SpectralIsometry.NormalProjectionContinuity.tendsto_zero_of_norm_sq`:
+  [InnerProductSpace ℂ H]
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℂ H] [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4154/4381] Built OAI.Analysis.BoundedHochschild.MatrixCommutants (11s)
+✔ [4155/4381] Built OAI.Analysis.BoundedHochschild.SignedMatrixUnitaries (3.7s)
+✔ [4156/4381] Built OAI.Analysis.BoundedHochschild.NormalOperators (21s)
+⚠ [4157/4381] Built SpectralIsometry.GenericScalarNormalPart (3.7s)
+warning: SpectralIsometry/GenericScalarNormalPart.lean:28:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+✔ [4158/4381] Built SpectralIsometry.CenterTraceNormality (4.1s)
+✔ [4159/4381] Built OAI.Analysis.BoundedHochschild.MatrixDisplacement (12s)
+✔ [4160/4381] Built OAI.Analysis.BoundedHochschild.FiniteTraceCover (6.3s)
+✔ [4161/4381] Built OAI.Analysis.BoundedHochschild.Corners (15s)
+✔ [4162/4381] Built OAI.Analysis.BoundedHochschild.CommutantQuantization (5.5s)
+✔ [4163/4381] Built OAI.Analysis.BoundedHochschild.CocycleNormalParts (10s)
+✔ [4164/4381] Built SpectralIsometry.CornerCommutingDyadic (3.4s)
+✔ [4165/4381] Built SpectralIsometry.SquareZeroCornerSpan (4.9s)
+⚠ [4166/4381] Built SpectralIsometry.QuadraticProjection (6.3s)
+warning: SpectralIsometry/QuadraticProjection.lean:38:22: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:32:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.QuadraticProjection.0.SpectralIsometry.QuadraticProjection.orthogonal_zero`:
+  [PartialOrder M]
+  [StarOrderedRing M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PartialOrder M] [StarOrderedRing M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/QuadraticProjection.lean:110:54: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:111:10: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:112:10: This simp argument is unused:
+  zero_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← Complex.coe_smul, map_sub, map_smul, ContinuousLinearMap.sub_apply,
+    ContinuousLinearMap.smul_apply, hpb, hbp', hproj p hp, smul_zero, sub_zero, sub_neg_eq_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/QuadraticProjection.lean:112:19: This simp argument is unused:
+  sub_neg_eq_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [← Complex.coe_smul, map_sub, map_smul, ContinuousLinearMap.sub_apply,
+    ContinuousLinearMap.smul_apply, hpb, hbp', hproj p hp, smul_zero, sub_zero, zero_sub]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/QuadraticProjection.lean:147:9: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/QuadraticProjection.lean:158:23: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+✔ [4167/4381] Built OAI.Analysis.BoundedHochschild.PublishedInputs (7.7s)
+✔ [4168/4381] Built SpectralIsometry.SquareZeroCornerImages (4.0s)
+✔ [4169/4381] Built OAI.Analysis.BoundedHochschild.RankOneQuantization (9.5s)
+✔ [4170/4381] Built SpectralIsometry.ConcreteCornerRange (15s)
+✔ [4171/4381] Built OAI.Analysis.BoundedHochschild.UniversalGNSRepresentation (24s)
+⚠ [4172/4381] Built SpectralIsometry.CornerHolomorphicWeight (4.2s)
+warning: SpectralIsometry/CornerHolomorphicWeight.lean:28:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4173/4381] Built OAI.Analysis.BoundedHochschild.RelativeQuantization (6.0s)
+✔ [4174/4381] Built SpectralIsometry.ConcreteCornerTopology (9.8s)
+✔ [4175/4381] Built OAI.Analysis.BoundedHochschild.IncrementalPatching (7.9s)
+✔ [4176/4381] Built OAI.Analysis.BoundedHochschild.FiniteMoments (7.3s)
+✔ [4177/4381] Built SpectralIsometry.BidualConcretePredual (23s)
+✔ [4178/4381] Built OAI.Analysis.BoundedHochschild.UltrapowerMoments (9.7s)
+✔ [4179/4381] Built SpectralIsometry.ConcreteCornerPreserverTransport (19s)
+✔ [4180/4381] Built SpectralIsometry.BidualNormality (5.7s)
+✔ [4181/4381] Built SpectralIsometry.ProjectionTailStrong (5.6s)
+✔ [4182/4381] Built OAI.Analysis.BoundedHochschild.AlternatingMoments (6.2s)
+✔ [4183/4381] Built SpectralIsometry.GenericPredualStar (8.5s)
+✔ [4184/4381] Built SpectralIsometry.GenericPredualPullback (9.8s)
+✔ [4185/4381] Built OAI.Analysis.BoundedHochschild.FreeHaarFamilies (8.8s)
+✔ [4186/4381] Built OAI.Analysis.BoundedHochschild.FactorFinitePaths (3.0s)
+✔ [4187/4381] Built OAI.Analysis.BoundedHochschild.TypeIIDefinitions (3.4s)
+✔ [4188/4381] Built OAI.Analysis.TracialCohomology.BidualApproximation (6.4s)
+✔ [4189/4381] Built OAI.Analysis.BoundedHochschild.TraceFreeSeparation (4.3s)
+✔ [4190/4381] Built OAI.Analysis.TracialCohomology.CornerComparison (8.1s)
+✔ [4191/4381] Built OAI.Analysis.BoundedHochschild.TypeIIStructure (4.8s)
+✔ [4192/4381] Built OAI.Analysis.BoundedHochschild.CentralSeparation (5.1s)
+✔ [4193/4381] Built OAI.Analysis.TracialCohomology.HilbertNormalParts (9.5s)
+✔ [4194/4381] Built OAI.Analysis.BoundedHochschild.TypeICentralSupport (3.0s)
+✔ [4195/4381] Built OAI.Analysis.TracialCohomology.FreeSeparation (4.5s)
+✔ [4196/4381] Built OAI.Analysis.TracialCohomology.PartialRepresentations (4.5s)
+✔ [4197/4381] Built OAI.Analysis.TracialCohomology.Matrices (4.9s)
+✔ [4198/4381] Built OAI.Analysis.BoundedHochschild.Frames (5.4s)
+✔ [4199/4381] Built OAI.Analysis.TracialCohomology.Corners (9.3s)
+✔ [4200/4381] Built OAI.Analysis.TracialCohomology.RepresentationLimits (4.0s)
+✔ [4201/4381] Built OAI.Analysis.TracialCohomology.CenterTrace (9.6s)
+✔ [4202/4381] Built OAI.Analysis.TracialCohomology.MatrixRepresentations (4.8s)
+✔ [4203/4381] Built OAI.Analysis.BoundedHochschild.AbelianComparison (4.5s)
+✔ [4204/4381] Built OAI.Analysis.BoundedHochschild.CentralComparison (5.4s)
+✔ [4205/4381] Built OAI.Analysis.TracialCohomology.Expectations (6.3s)
+✔ [4206/4381] Built OAI.Analysis.TracialCohomology.InteriorHomotopy (11s)
+✔ [4207/4381] Built OAI.Analysis.BoundedHochschild.TraceFreeComparison (3.5s)
+✔ [4208/4381] Built OAI.Analysis.TracialCohomology.TypeII (5.8s)
+✔ [4209/4381] Built OAI.Analysis.TracialCohomology.RandomSigns (6.0s)
+✔ [4210/4381] Built OAI.Analysis.TracialCohomology.MatrixNorms (5.8s)
+✔ [4211/4381] Built OAI.Analysis.TracialCohomology.BilinearModulus (26s)
+✔ [4212/4381] Built OAI.Analysis.BoundedHochschild.TraceFreeHalving (4.6s)
+✔ [4213/4381] Built OAI.Analysis.TracialCohomology.Partitions (7.5s)
+✔ [4214/4381] Built OAI.Analysis.TracialCohomology.DominatedFactorization (7.2s)
+✔ [4215/4381] Built OAI.Analysis.TracialCohomology.Homogeneous (5.9s)
+✔ [4216/4381] Built OAI.Analysis.TracialCohomology.Cohomology (4.2s)
+✔ [4217/4381] Built OAI.Analysis.TracialCohomology.NormalPreservation (5.2s)
+✔ [4218/4381] Built OAI.Analysis.TracialCohomology.ProjectionEstimates (8.3s)
+✔ [4219/4381] Built OAI.Analysis.TracialCohomology.CornerTraces (8.8s)
+✔ [4220/4381] Built OAI.Analysis.TracialCohomology.SlotHomotopy (19s)
+✔ [4221/4381] Built SpectralIsometry.BidualFoundation (64s)
+✔ [4222/4381] Built OAI.Analysis.TracialCohomology.CentralMatrices (6.5s)
+✔ [4223/4381] Built OAI.Analysis.TracialCohomology.MixedWords (6.5s)
+✔ [4224/4381] Built OAI.Analysis.TracialCohomology.HilbertFactorization (7.5s)
+✔ [4225/4381] Built OAI.Analysis.TracialCohomology.MatrixExtensions (9.8s)
+✔ [4226/4381] Built OAI.Analysis.TracialCohomology.NormalReduction (3.0s)
+✔ [4227/4381] Built SpectralIsometry.GenericNormalProjectionConverse (10s)
+✔ [4228/4381] Built OAI.Analysis.TracialCohomology.MarkedWords (4.4s)
+✔ [4229/4381] Built OAI.Analysis.TracialCohomology.SmallExpectations (8.3s)
+✔ [4230/4381] Built SpectralIsometry.UniversalNormalProjection (14s)
+⚠ [4231/4381] Built SpectralIsometry.BidualDensity (15s)
+warning: SpectralIsometry/BidualDensity.lean:56:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [4232/4381] Built SpectralIsometry.BoundedStrongStarNetGraph (16s)
+warning: SpectralIsometry/BoundedStrongStarNetGraph.lean:59:46: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/BoundedStrongStarNetGraph.lean:64:55: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+⚠ [4233/4381] Built OAI.Analysis.TracialCohomology.CenterExtensions (10s)
+warning: vendor/OAI/Analysis/TracialCohomology/CenterExtensions.lean:149:0: automatically included section variable(s) unused in theorem `OAI.PopaCenter.System.conjugated_expect`:
+  [PartialOrder M]
+  [StarOrderedRing M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PartialOrder M] [StarOrderedRing M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4234/4381] Built SpectralIsometry.GenericBoundedNetLifts (5.5s)
+warning: SpectralIsometry/GenericBoundedNetLifts.lean:26:0: automatically included section variable(s) unused in theorem `SpectralIsometry.BoundedStrongStarNetGraph.limitHom_surjective_of_approximants`:
+  [l.NeBot]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [l.NeBot] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4235/4381] Built SpectralIsometry.UniversalApproximation (22s)
+warning: SpectralIsometry/UniversalApproximation.lean:39:16: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalApproximation.lean:41:39: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+✔ [4236/4381] Built OAI.Analysis.TracialCohomology.CenterQuantization (8.3s)
+✔ [4237/4381] Built SpectralIsometry.BidualRestrictionNorm (10s)
+✔ [4238/4381] Built OAI.Analysis.TracialCohomology.LocalQuantization (10s)
+✔ [4239/4381] Built SpectralIsometry.BidualRestrictionEquiv (12s)
+✔ [4240/4381] Built OAI.Analysis.TracialCohomology.PatchTraces (8.3s)
+⚠ [4241/4381] Built SpectralIsometry.UniversalSelfAdjointApproximation (25s)
+warning: SpectralIsometry/UniversalSelfAdjointApproximation.lean:38:16: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalSelfAdjointApproximation.lean:38:47: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+✔ [4242/4381] Built OAI.Analysis.TracialCohomology.PatchBounds (6.2s)
+✔ [4243/4381] Built OAI.Analysis.TracialCohomology.WordQuantization (7.9s)
+✔ [4244/4381] Built OAI.Analysis.TracialCohomology.FreshBounds (9.7s)
+✔ [4245/4381] Built OAI.Analysis.TracialCohomology.GoodExtensions (7.3s)
+✔ [4246/4381] Built SpectralIsometry.BidualDuality (29s)
+✔ [4247/4381] Built OAI.Analysis.TracialCohomology.PatchConstruction (5.0s)
+✔ [4248/4381] Built OAI.Analysis.TracialCohomology.ResidualFilling (4.6s)
+✔ [4249/4381] Built OAI.Analysis.TracialCohomology.FinitePaths (3.0s)
+✔ [4250/4381] Built SpectralIsometry.BidualArensProduct (16s)
+✔ [4251/4381] Built SpectralIsometry.BidualRestriction (17s)
+⚠ [4252/4381] Built SpectralIsometry.UniversalNormalContinuity (63s)
+warning: SpectralIsometry/UniversalNormalContinuity.lean:82:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.UniversalNormalContinuity.0.SpectralIsometry.BidualFoundation.UniversalNormalContinuity.original_vector_domination`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/UniversalNormalContinuity.lean:113:8: automatically included section variable(s) unused in theorem `_private.SpectralIsometry.UniversalNormalContinuity.0.SpectralIsometry.BidualFoundation.UniversalNormalContinuity.weak_vector_limit`:
+  [CompleteSpace K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: SpectralIsometry/UniversalNormalContinuity.lean:145:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalNormalContinuity.lean:174:18: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalContinuity.lean:175:8: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/UniversalNormalContinuity.lean:181:27: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalContinuity.lean:182:8: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/UniversalNormalContinuity.lean:191:24: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalContinuity.lean:199:33: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+✔ [4253/4381] Built SpectralIsometry.BidualStarCompatibility (18s)
+✔ [4254/4381] Built OAI.Analysis.TracialCohomology.TracialPrimitives (8.0s)
+✔ [4255/4381] Built OAI.Analysis.TracialCohomology.Vanishing (4.0s)
+✔ [4256/4381] Built OAI.Analysis.BoundedHochschild.Conditional (5.1s)
+✔ [4257/4381] Built SpectralIsometry.BidualTraceExtension (15s)
+✔ [4258/4381] Built OAI.Analysis.BoundedHochschild.FiniteCentralDecomposition (4.3s)
+✔ [4259/4381] Built OAI.Analysis.BoundedHochschild.AbelianPrimitives (4.7s)
+✔ [4260/4381] Built OAI.Analysis.BoundedHochschild.CornerEquivalences (7.6s)
+✔ [4261/4381] Built OAI.Analysis.BoundedHochschild.FiniteProjectionEquivalence (3.0s)
+✔ [4262/4381] Built OAI.Analysis.BoundedHochschild.TypeICentralDecomposition (4.2s)
+✔ [4263/4381] Built OAI.Analysis.BoundedHochschild.FiniteNormalState (4.5s)
+✔ [4264/4381] Built OAI.Analysis.BoundedHochschild.FiniteUnitaryPrimitives (4.7s)
+✔ [4265/4381] Built OAI.Analysis.BoundedHochschild.CentralTypeIIInheritance (3.5s)
+✔ [4266/4381] Built OAI.Analysis.BoundedHochschild.TracialCoverReduction (3.7s)
+✔ [4267/4381] Built OAI.Analysis.BoundedHochschild.PartialIsoCornerEquivalence (4.3s)
+✔ [4268/4381] Built OAI.Analysis.BoundedHochschild.FiniteProjectionExtension (3.0s)
+✔ [4269/4381] Built OAI.Analysis.BoundedHochschild.CentralBlockUnitaries (3.7s)
+✔ [4270/4381] Built OAI.Analysis.BoundedHochschild.TypeIICharacterization (3.6s)
+✔ [4271/4381] Built OAI.Analysis.BoundedHochschild.FiniteIncreasingComparison (3.5s)
+✔ [4272/4381] Built OAI.Analysis.BoundedHochschild.CenterAveragingReduction (4.5s)
+✔ [4273/4381] Built OAI.Analysis.BoundedHochschild.PartialIsoProducts (4.4s)
+✔ [4274/4381] Built OAI.Analysis.BoundedHochschild.CentralBlockSpans (3.9s)
+✔ [4275/4381] Built OAI.Analysis.BoundedHochschild.AbelianCentralSupport (3.0s)
+✔ [4276/4381] Built OAI.Analysis.BoundedHochschild.IsometryDefectColumns (3.6s)
+✔ [4277/4381] Built OAI.Analysis.BoundedHochschild.TraceFreeProjectionJoins (4.8s)
+✔ [4278/4381] Built OAI.Analysis.BoundedHochschild.HomogeneousTypeI (3.7s)
+✔ [4279/4381] Built OAI.Analysis.BoundedHochschild.AbelianSupportEquivalence (3.4s)
+✔ [4280/4381] Built OAI.Analysis.BoundedHochschild.ProjectionJoinComparison (3.7s)
+✔ [4281/4381] Built OAI.Analysis.BoundedHochschild.MatrixBlockGroups (4.6s)
+✔ [4282/4381] Built OAI.Analysis.BoundedHochschild.CentralSupportCuts (3.0s)
+✔ [4283/4381] Built SpectralIsometry.BidualOperatorCore (58s)
+✔ [4284/4381] Built OAI.Analysis.BoundedHochschild.FiniteCountableComparison (3.5s)
+✔ [4285/4381] Built OAI.Analysis.BoundedHochschild.OrthogonalProjectionSums (3.9s)
+✔ [4286/4381] Built OAI.Analysis.BoundedHochschild.HomogeneousTypeIPrimitives (5.4s)
+✔ [4287/4381] Built OAI.Analysis.BoundedHochschild.OrthogonalProjectionTails (3.9s)
+✔ [4288/4381] Built SpectralIsometry.CenterTraceGluing (3.8s)
+✔ [4289/4381] Built OAI.Analysis.BoundedHochschild.OrthogonalPartialIsoSums (3.9s)
+✔ [4290/4381] Built OAI.Analysis.BoundedHochschild.TypeIMatrixColumns (3.5s)
+✔ [4291/4381] Built OAI.Analysis.BoundedHochschild.FiniteProjectionAbsoluteContinuity (3.7s)
+✔ [4292/4381] Built OAI.Analysis.BoundedHochschild.ProperlyInfiniteColumns (3.0s)
+✔ [4293/4381] Built OAI.Analysis.BoundedHochschild.AbelianProjectionForms (2.0s)
+✔ [4294/4381] Built OAI.Analysis.BoundedHochschild.TypeICentralPieces (3.9s)
+✔ [4295/4381] Built OAI.Analysis.BoundedHochschild.FiniteNormalOrbit (3.8s)
+✔ [4296/4381] Built OAI.Analysis.BoundedHochschild.CentralColumnCuts (3.6s)
+✔ [4297/4381] Built OAI.Analysis.BoundedHochschild.ProperlyInfiniteCorners (4.4s)
+✔ [4298/4381] Built OAI.Analysis.BoundedHochschild.NormalOrbitHull (4.7s)
+✔ [4299/4381] Built OAI.Analysis.BoundedHochschild.TypeIColumnArithmetic (3.7s)
+✔ [4300/4381] Built OAI.Analysis.BoundedHochschild.InfinitePairChains (3.7s)
+✔ [4301/4381] Built OAI.Analysis.BoundedHochschild.TypeIColumnExtension (3.9s)
+✔ [4302/4381] Built OAI.Analysis.BoundedHochschild.PositiveNormalParts (5.8s)
+✔ [4303/4381] Built OAI.Analysis.BoundedHochschild.MaximalInfiniteProjection (3.8s)
+✔ [4304/4381] Built OAI.Analysis.BoundedHochschild.TracialTypeIHomogeneousPiece (3.5s)
+✔ [4305/4381] Built OAI.Analysis.BoundedHochschild.NormalOrderIntervals (4.0s)
+✔ [4306/4381] Built OAI.Analysis.BoundedHochschild.HomogeneousCornerTransport (3.0s)
+✔ [4307/4381] Built OAI.Analysis.BoundedHochschild.ProjectionPositivity (4.4s)
+✔ [4308/4381] Built SpectralIsometry.BidualOperatorFunctor (32s)
+✔ [4309/4381] Built OAI.Analysis.BoundedHochschild.CompleteAdditivity (4.5s)
+⚠ [4310/4381] Built SpectralIsometry.UniversalSquareZeroExtension (36s)
+warning: SpectralIsometry/UniversalSquareZeroExtension.lean:94:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4311/4381] Built OAI.Analysis.BoundedHochschild.AdditivePositiveSupport (4.2s)
+✔ [4312/4381] Built OAI.Analysis.BoundedHochschild.PositiveCompression (4.5s)
+✔ [4313/4381] Built OAI.Analysis.BoundedHochschild.PositiveCompleteAdditivity (4.5s)
+✔ [4314/4381] Built OAI.Analysis.BoundedHochschild.UniformProjectionSums (4.2s)
+✔ [4315/4381] Built OAI.Analysis.BoundedHochschild.PositiveOrbitCompactness (4.9s)
+✔ [4316/4381] Built OAI.Analysis.BoundedHochschild.WeakPredual (4.2s)
+✔ [4317/4381] Built SpectralIsometry.BidualExponentialGroup (30s)
+✔ [4318/4381] Built OAI.Analysis.BoundedHochschild.UnitaryPredualAction (4.0s)
+✔ [4319/4381] Built SpectralIsometry.UniversalExpZero (8.3s)
+⚠ [4320/4381] Built SpectralIsometry.UniversalNormalSupport (112s)
+warning: SpectralIsometry/UniversalNormalSupport.lean:62:34: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/UniversalNormalSupport.lean:73:38: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+✔ [4321/4381] Built OAI.Analysis.BoundedHochschild.NormalOrbitInvariance (5.3s)
+✔ [4322/4381] Built SpectralIsometry.ExponentialCoercion (4.9s)
+✔ [4323/4381] Built OAI.Analysis.BoundedHochschild.FiniteNormalTrace (4.6s)
+✔ [4324/4381] Built SpectralIsometry.UniversalBoundedNetAlgebra (43s)
+✔ [4325/4381] Built OAI.Analysis.BoundedHochschild.NormalTraceFaithfulness (4.6s)
+⚠ [4326/4381] Built SpectralIsometry.UniversalTraceMoments (81s)
+warning: SpectralIsometry/UniversalTraceMoments.lean:27:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalTraceMoments.lean:33:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalTraceMoments.lean:104:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4327/4381] Built OAI.Analysis.BoundedHochschild.FiniteTracialDecomposition (3.7s)
+✔ [4328/4381] Built OAI.Analysis.BoundedHochschild.FiniteTypeIPieces (3.8s)
+✔ [4329/4381] Built OAI.Analysis.BoundedHochschild.FiniteTypeIVanishing (4.1s)
+⚠ [4330/4381] Built SpectralIsometry.UniversalRealSpectrumExtension (59s)
+warning: SpectralIsometry/UniversalRealSpectrumExtension.lean:46:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalRealSpectrumExtension.lean:67:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4331/4381] Built OAI.Analysis.BoundedHochschild.InfiniteCentralReduction (3.7s)
+✔ [4332/4381] Built OAI.Analysis.BoundedHochschild.ProperlyInfiniteIsometries (3.7s)
+✔ [4333/4381] Built OAI (3.2s)
+✔ [4335/4381] Built SpectralIsometry.ProperInfiniteCopiesBridge (3.3s)
+✔ [4336/4381] Built SpectralIsometry.UnitCopySequence (3.7s)
+⚠ [4337/4381] Built SpectralIsometry.FiniteBidualDecomposition (5.3s)
+warning: SpectralIsometry/FiniteBidualDecomposition.lean:50:17: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4338/4381] Built SpectralIsometry.SquareZeroProperInfiniteCorner (3.3s)
+✔ [4339/4381] Built SpectralIsometry.UnitCopyTails (3.6s)
+✔ [4340/4381] Built SpectralIsometry.UniversalExponentialProperties (13s)
+✔ [4341/4381] Built SpectralIsometry.WeightedSquareZeroProjection (4.7s)
+✔ [4342/4381] Built SpectralIsometry.CenterTracePieces (6.9s)
+✔ [4343/4381] Built SpectralIsometry.UnitalProjectionJordan (5.2s)
+✔ [4344/4381] Built SpectralIsometry.GlobalCenterValuedTrace (4.5s)
+⚠ [4345/4381] Built SpectralIsometry.NormalProjectionApproximation (12s)
+warning: SpectralIsometry/NormalProjectionApproximation.lean:83:18: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:89:18: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:98:9: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: SpectralIsometry/NormalProjectionApproximation.lean:164:12: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NormalProjectionApproximation.lean:173:22: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:189:16: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: SpectralIsometry/NormalProjectionApproximation.lean:195:19: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/NormalProjectionApproximation.lean:197:26: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+✔ [4346/4381] Built SpectralIsometry.CenterValuedTraceConcrete (4.2s)
+✔ [4347/4381] Built SpectralIsometry.NormalWeightedProjection (8.7s)
+✔ [4348/4381] Built SpectralIsometry.CornerNormalWeightedAssembly (4.0s)
+✔ [4349/4381] Built SpectralIsometry.NormalCornerFamilyJordan (10s)
+✔ [4350/4381] Built SpectralIsometry.GenericCornerLift (3.8s)
+✔ [4351/4381] Built SpectralIsometry.GenericWeightedFamilyResult (4.3s)
+✔ [4352/4381] Built SpectralIsometry.GenericProperWeightedFamily (4.2s)
+✔ [4353/4381] Built SpectralIsometry.UniversalNormalMapCompression (92s)
+⚠ [4354/4381] Built SpectralIsometry.WeakStarNormalContinuity (5.5s)
+warning: SpectralIsometry/WeakStarNormalContinuity.lean:42:6: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: SpectralIsometry/WeakStarNormalContinuity.lean:41:26: This simp argument is unused:
+  map_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_smulₛₗ, RingHom.id_apply, starRingEnd_apply, star_star, ContinuousLinearMap.smul_apply,
+    smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: SpectralIsometry/WeakStarNormalContinuity.lean:46:0: automatically included section variable(s) unused in theorem `SpectralIsometry.BidualFoundation.WeakStarNormalContinuity.normalFunctionalPullback_of_weakStarContinuous`:
+  [CompleteSpace X]
+  [CompleteSpace Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] [CompleteSpace Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4355/4381] Built SpectralIsometry.NormalSeminorm (3.9s)
+warning: SpectralIsometry/NormalSeminorm.lean:45:0: automatically included section variable(s) unused in theorem `SpectralIsometry.NormalSeminorm.seminormTendsto_iff`:
+  [CompleteSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [4356/4381] Built SpectralIsometry.NormalSeminormStructure (5.0s)
+warning: SpectralIsometry/NormalSeminormStructure.lean:43:52: This simp argument is unused:
+  RingHom.id_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_smul, map_smul, norm_smul, norm_star]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [4357/4381] Built SpectralIsometry.NormalSeminormTopology (10s)
+warning: SpectralIsometry/NormalSeminormTopology.lean:38:0: Definition `SpectralIsometry.NormalSeminorm.strongStarTopology` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: SpectralIsometry/NormalSeminormTopology.lean:43:0: automatically included section variable(s) unused in theorem `SpectralIsometry.NormalSeminorm.topology_withSeminorms`:
+  [CompleteSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [4358/4381] Built SpectralIsometry.NormalSeminormWitness (3.7s)
+✔ [4359/4381] Built SpectralIsometry.ConcreteNormalSeminormConvergence (8.3s)
+✔ [4360/4381] Built SpectralIsometry.BoundedNetNormalTopology (4.0s)
+✔ [4361/4381] Built SpectralIsometry.BoundedNeighborhoodReindex (6.8s)
+✔ [4362/4381] Built SpectralIsometry.FiniteQuotientAssembly (139s)
+✔ [4363/4381] Built SpectralIsometry.CornerFamilyHolomorphic (10s)
+⚠ [4364/4381] Built SpectralIsometry.UniversalNeighborhoodNetAlgebra (51s)
+warning: SpectralIsometry/UniversalNeighborhoodNetAlgebra.lean:66:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: SpectralIsometry/UniversalNeighborhoodNetAlgebra.lean:78:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [4365/4381] Built SpectralIsometry.GenericCentralBlockIdentities (3.9s)
+✔ [4366/4381] Built SpectralIsometry.CentralBlocksSquareAssembly (4.4s)
+✔ [4367/4381] Built SpectralIsometry.FiniteQuotientInverse (15s)
+✔ [4368/4381] Built SpectralIsometry.SquareFamilyAssembly (3.6s)
+⚠ [4369/4381] Built SpectralIsometry.GenericCentralOffDiagonal (4.6s)
+warning: SpectralIsometry/GenericCentralOffDiagonal.lean:23:30: Variable name `hqc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [4370/4381] Built SpectralIsometry.CentralSplitFamilyAssembly (3.7s)
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:31:28: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:32:7: Variable name `hpc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hpc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:32:32: Variable name `hqc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SpectralIsometry/CentralSplitFamilyAssembly.lean:32:57: Variable name `hsum` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsum
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4371/4381] Built SpectralIsometry.UniversalProperCornerFacts (18s)
+✔ [4372/4381] Built SpectralIsometry.UniversalProperCornerResult (14s)
+✔ [4373/4381] Built SpectralIsometry.UniversalOffDiagonalResult (12s)
+✔ [4374/4381] Built SpectralIsometry.EntireGroup (122s)
+✔ [4375/4381] Built SpectralIsometry.MainTheorems (7.0s)
+✔ [4376/4381] Built SpectralIsometry (4.3s)
+✔ [4378/4381] Built Solution (5.7s)
+ℹ [4380/4381] Built AxiomReport (6.9s)
+info: AxiomReport.lean:8:0: 'OAI.BoundedHochschild.KadisonRingrose.universalGNSRepresentation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:9:0: 'OAI.BoundedHochschild.KadisonRingrose.universalGNSRepresentation_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:10:0: 'OAI.BoundedHochschild.KadisonRingrose.universalGNSRepresentation_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:11:0: 'SpectralIsometry.AutomaticContinuity.banach_circle_rpow_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:12:0: 'SpectralIsometry.AutomaticContinuity.continuous_of_surjective_preservesRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:13:0: 'SpectralIsometry.AutomaticContinuity.continuous_of_zero_separating_limits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:14:0: 'SpectralIsometry.AutomaticContinuity.eq_zero_of_radius_translation_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:15:0: 'SpectralIsometry.AutomaticContinuity.exists_continuousLinearEquiv_of_surjective_preservesRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:16:0: 'SpectralIsometry.AutomaticContinuity.limsup_ae_eq_const_of_mean_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:17:0: 'SpectralIsometry.AutomaticContinuity.lower_of_ae_lower_of_upperSemicontinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:18:0: 'SpectralIsometry.AutomaticContinuity.separating_radius_translation_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:19:0: 'SpectralIsometry.AutomaticContinuity.spectralRadius_circle_lintegral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:20:0: 'SpectralIsometry.AutomaticContinuity.spectralRadius_circle_mean' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:21:0: 'SpectralIsometry.AutomaticContinuity.upperSemicontinuous_radiusReal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:22:0: 'SpectralIsometry.AutomaticContinuity.upperSemicontinuous_spectralRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:23:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.coefficientPredual_boundedWOT' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:24:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.coefficientPredual_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:25:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.coefficientPredual_tendsto_of_strong' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:26:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.concreteWStarAlgebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:27:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.functionalStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:28:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.inner_operatorFromDual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:29:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.leftMulPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:30:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.normalDual_eq_coefficientPredual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:31:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.operatorFromDual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:32:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.operatorFromDual_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:33:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.predualEvaluationEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:34:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.rightMulPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:35:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.starPullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:36:0: 'SpectralIsometry.BidualFoundation.CoefficientPredual.vectorFunctional_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:37:0: 'SpectralIsometry.BidualFoundation.GenericDual.dualIsometryEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:38:0: 'SpectralIsometry.BidualFoundation.GenericDual.dualIsometryEquiv_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:39:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.differentiable_lift_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:40:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.differentiable_lift_exp_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:41:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.expOperatorEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:42:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.exp_operator_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:43:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.liftEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:44:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.liftLinearIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:45:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_coefficientTendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:46:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:47:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_bijective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:48:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:49:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:50:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_exp_unital' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:51:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:52:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:53:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_norm_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:54:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:55:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:56:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.lift_vector_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:57:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.preadjoint_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:58:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:59:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:60:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_canonical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:61:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_comp' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:62:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:63:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:64:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.secondTranspose_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:65:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.transpose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:66:0: 'SpectralIsometry.BidualFoundation.OperatorExtension.transpose_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:67:0: 'SpectralIsometry.BidualFoundation.UniversalApproximation.exists_bounded_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:68:0: 'SpectralIsometry.BidualFoundation.UniversalApproximation.exists_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:69:0: 'SpectralIsometry.BidualFoundation.UniversalApproximation.index_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:70:0: 'SpectralIsometry.BidualFoundation.UniversalNormalContinuity.exists_vector_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:71:0: 'SpectralIsometry.BidualFoundation.UniversalNormalContinuity.strongStarTendsto_map' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:72:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.compressed_extension_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:73:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.compressed_lift_inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:74:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.normalPositiveTendsto_map_of_pullback' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:75:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.normal_extension_supported' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:76:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_central' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:77:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_fixes_normal_coefficient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:78:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_isStarProjection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:79:0: 'SpectralIsometry.BidualFoundation.UniversalNormalProjection.projection_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:80:0: 'SpectralIsometry.BidualFoundation.UniversalRealSpectrumExtension.lift_selfadjoint_real_spectrum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:81:0: 'SpectralIsometry.BidualFoundation.UniversalRealSpectrumExtension.lift_selfadjoint_resolvent_isUnit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:82:0: 'SpectralIsometry.BidualFoundation.UniversalSelfAdjointApproximation.exists_bounded_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:83:0: 'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.exists_original_squareZero_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:84:0: 'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.lift_preserves_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:85:0: 'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.lift_strongStarTendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:86:0: 'SpectralIsometry.BidualFoundation.UniversalSquareZeroExtension.spectral_lift_preserves_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:87:0: 'SpectralIsometry.BidualFoundation.UniversalTraceMoments.trace_entire_group_moments_universal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:88:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.arensPairings_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:89:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.bidualIsometry_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:90:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:91:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:92:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_firstArensPairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:93:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:94:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_starPairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:95:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalBidualIsometry_symm_pairing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:96:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:97:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_eq_positiveExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:98:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:99:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:100:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_starSquare_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:101:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.canonicalPredualEquiv_symm_tracial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:102:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.contractionStrongDense' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:103:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.exists_four_positive_canonical' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:104:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.exists_predual_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:105:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.exists_strong_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:106:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.firstArensPairing_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:107:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.fourCombination_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:108:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.fourPositiveFamily_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:109:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.inclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:110:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.positiveExtension_starSquare_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:111:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.representationRange_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:112:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionDualEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:113:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:114:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restrictionLinearIsometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:115:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_fourCombination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:116:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_norm_eq_of_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:117:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.restriction_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:118:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.secondArensPairing_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:119:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.starPairing_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:120:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.tracial_of_restriction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:121:0: 'SpectralIsometry.BidualFoundation.UniversalWeakClosure.weakClosure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:122:0: 'SpectralIsometry.BidualFoundation.WeakStarNormalContinuity.normalFunctionalPullback_of_weakStarContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:123:0: 'SpectralIsometry.BidualFoundation.WeakStarNormalContinuity.strongStar_on_bounded_sets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:124:0: 'SpectralIsometry.BidualFoundation.faithfulHilbertModel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:125:0: 'SpectralIsometry.BidualFoundation.faithfulHilbertModel_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:126:0: 'SpectralIsometry.BoundedInverseLimit.isUnit_of_strongStar_of_inverse_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:127:0: 'SpectralIsometry.BoundedInverseLimit.isUnit_of_two_vector_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:128:0: 'SpectralIsometry.BoundedNeighborhoodReindex.exists_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:129:0: 'SpectralIsometry.BoundedNeighborhoodReindex.index_atTop_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:130:0: 'SpectralIsometry.BoundedStrongStarNetGraph.convergent_nets_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:131:0: 'SpectralIsometry.BoundedStrongStarNetGraph.converges_iff_normalTopology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:132:0: 'SpectralIsometry.BoundedStrongStarNetGraph.firstHom_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:133:0: 'SpectralIsometry.BoundedStrongStarNetGraph.firstHom_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:134:0: 'SpectralIsometry.BoundedStrongStarNetGraph.firstHom_range_normalTopology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:135:0: 'SpectralIsometry.BoundedStrongStarNetGraph.graph_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:136:0: 'SpectralIsometry.BoundedStrongStarNetGraph.limitHom_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:137:0: 'SpectralIsometry.BoundedStrongStarNetGraph.limitHom_surjective_of_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:138:0: 'SpectralIsometry.BoundedStrongStarNetGraph.squareZero_contraction_lift_of_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:139:0: 'SpectralIsometry.BoundedStrongStarNetGraph.squareZero_lift_of_approximants' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:140:0: 'SpectralIsometry.CenterTraceGluing.exists_bounded_gluing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:141:0: 'SpectralIsometry.CenterTraceGluing.exists_positive_gluing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:142:0: 'SpectralIsometry.CenterTraceNormality.normalPart_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:143:0: 'SpectralIsometry.CenterTraceNormality.normalPart_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:144:0: 'SpectralIsometry.CenterTraceNormality.normal_of_central_pairings' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:145:0: 'SpectralIsometry.CenterTracePieces.average_center_module' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:146:0: 'SpectralIsometry.CenterTracePieces.average_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:147:0: 'SpectralIsometry.CenterTracePieces.exists_tracePiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:148:0: 'SpectralIsometry.CenterTracePieces.scalar_faithful_piece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:149:0: 'SpectralIsometry.CenterTracePieces.scalar_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:150:0: 'SpectralIsometry.CenterValuedTraceConcrete.finite_vonNeumann_has_center_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:151:0: 'SpectralIsometry.CenterValuedTraceConcrete.positive_faithful' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:152:0: 'SpectralIsometry.CentralBlocksSquareAssembly.complementary_compressions_separate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:153:0: 'SpectralIsometry.CentralBlocksSquareAssembly.first_compression_kernel_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:154:0: 'SpectralIsometry.CentralBlocksSquareAssembly.preserves_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:155:0: 'SpectralIsometry.CircleLp.analytic_circle_ae_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:156:0: 'SpectralIsometry.CommutativeReduction.commutative_multiplicative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:157:0: 'SpectralIsometry.CommutativeReduction.commutative_selfadjoint_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:158:0: 'SpectralIsometry.CommutativeReduction.commutative_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:159:0: 'SpectralIsometry.ConcreteCorner.central_weight_of_transport' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:160:0: 'SpectralIsometry.ConcreteCorner.continuousEquivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:161:0: 'SpectralIsometry.ConcreteCorner.equivalence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:162:0: 'SpectralIsometry.ConcreteCorner.equivalence_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:163:0: 'SpectralIsometry.ConcreteCorner.holomorphic_central_weight_eq_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:164:0: 'SpectralIsometry.ConcreteCorner.inclusion_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:165:0: 'SpectralIsometry.ConcreteCorner.lift_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:166:0: 'SpectralIsometry.ConcreteCorner.mem_algebra_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:167:0: 'SpectralIsometry.ConcreteCorner.selfAdjoint_of_central_of_ambient_real_spectrum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:168:0: 'SpectralIsometry.ConcreteCorner.strongStarTendsto_equivalence_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:169:0: 'SpectralIsometry.ConcreteCorner.strongStarTendsto_lift_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:170:0: 'SpectralIsometry.ConcreteCorner.transport_bounded_sequence_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:171:0: 'SpectralIsometry.ConcreteCorner.transport_preservesSquareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:172:0: 'SpectralIsometry.ConcreteCorner.weakOperatorTendsto_lift_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:173:0: 'SpectralIsometry.ConcreteNormalSeminorm.bounded_strongStar_to_normalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:174:0: 'SpectralIsometry.ConcreteNormalSeminorm.bounded_topology_iff_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:175:0: 'SpectralIsometry.ConcreteNormalSeminorm.normalPositive_to_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:176:0: 'SpectralIsometry.CornerFamilyHolomorphic.centralBlockCLM_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:177:0: 'SpectralIsometry.CornerFamilyHolomorphic.crossBlockCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:178:0: 'SpectralIsometry.CornerFamilyHolomorphic.crossBlockCLM_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:179:0: 'SpectralIsometry.CornerFamilyHolomorphic.differentiable_sandwich' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:180:0: 'SpectralIsometry.CornerFamilyHolomorphic.sandwichL' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:181:0: 'SpectralIsometry.CornerFamilyHolomorphic.universal_complementBlock_operator_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:182:0: 'SpectralIsometry.CornerFamilyHolomorphic.universal_crossBlock_operator_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:183:0: 'SpectralIsometry.EntireAssembly.entire_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:184:0: 'SpectralIsometry.EntireAssembly.expOperatorEquiv_toCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:185:0: 'SpectralIsometry.EntireAssembly.lift_exp_real_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:186:0: 'SpectralIsometry.EntireAssembly.lift_exp_squareZero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:187:0: 'SpectralIsometry.EntireAssembly.lift_exp_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:188:0: 'SpectralIsometry.EntireAssembly.lift_exp_zero_apply_fast' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:189:0: 'SpectralIsometry.EntireAssembly.universal_complement_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:190:0: 'SpectralIsometry.EntireAssembly.universal_complement_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:191:0: 'SpectralIsometry.EntireAssembly.universal_complement_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:192:0: 'SpectralIsometry.EntireAssembly.universal_complement_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:193:0: 'SpectralIsometry.EntireAssembly.universal_complement_weight_real' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:194:0: 'SpectralIsometry.EntireAssembly.universal_complement_weight_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:195:0: 'SpectralIsometry.EntireAssembly.universal_crossBlock_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:196:0: 'SpectralIsometry.EntireAssembly.universal_entire_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:197:0: 'SpectralIsometry.EntireAssemblyGeneric.restriction_strongStarTendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:198:0: 'SpectralIsometry.FiniteBidualDecomposition.eq_zero_of_all_normal_tracial_states' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:199:0: 'SpectralIsometry.FiniteBidualDecomposition.exists_central_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:200:0: 'SpectralIsometry.FiniteBidualDecomposition.exists_finite_properlyInfinite_cut' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:201:0: 'SpectralIsometry.FiniteBidualDecomposition.exists_normal_tracial_state_faithful_on_piece' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:202:0: 'SpectralIsometry.FiniteBidualDecomposition.positive_eq_zero_of_all_normal_tracial_states' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:203:0: 'SpectralIsometry.FiniteQuotientAssembly.centralBlockCLM_coe_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:204:0: 'SpectralIsometry.FiniteQuotientAssembly.centralBlockCLM_comp_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:205:0: 'SpectralIsometry.FiniteQuotientAssembly.centralBlockCLM_toLinearMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:206:0: 'SpectralIsometry.FiniteQuotientAssembly.centralCompressionHom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:207:0: 'SpectralIsometry.FiniteQuotientAssembly.centralCompressionHom_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:208:0: 'SpectralIsometry.FiniteQuotientAssembly.centralCompression_eq_zero_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:209:0: 'SpectralIsometry.FiniteQuotientAssembly.centralCompression_kernel_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:210:0: 'SpectralIsometry.FiniteQuotientAssembly.centralFunctionalExtension_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:211:0: 'SpectralIsometry.FiniteQuotientAssembly.centralPositiveTraceExtension_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:212:0: 'SpectralIsometry.FiniteQuotientAssembly.centralPositiveTraceExtension_state' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:213:0: 'SpectralIsometry.FiniteQuotientAssembly.complement_corner_compression_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:214:0: 'SpectralIsometry.FiniteQuotientAssembly.complement_projection_mul_of_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:215:0: 'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:216:0: 'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:217:0: 'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_jordan' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:218:0: 'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:219:0: 'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:220:0: 'SpectralIsometry.FiniteQuotientAssembly.finiteBlock_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:221:0: 'SpectralIsometry.FiniteQuotientAssembly.finite_injective_of_quadratic_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:222:0: 'SpectralIsometry.FiniteQuotientAssembly.finite_jordan_of_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:223:0: 'SpectralIsometry.FiniteQuotientAssembly.finite_squares_of_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:224:0: 'SpectralIsometry.FiniteQuotientAssembly.normal_tracial_states_separate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:225:0: 'SpectralIsometry.FiniteQuotientAssembly.universalComplementEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:226:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:227:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_group' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:228:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:229:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_weight' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:230:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_complementBlock_weight_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:231:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_compression_kernel_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:232:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_finiteBlock_jordan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:233:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_finiteBlock_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:234:0: 'SpectralIsometry.FiniteQuotientAssembly.universal_normal_trace_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:235:0: 'SpectralIsometry.FiniteQuotientInverse.finiteBlock_id' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:236:0: 'SpectralIsometry.FiniteQuotientInverse.finiteBlock_negative_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:237:0: 'SpectralIsometry.FiniteQuotientInverse.lift_exp_negative_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:238:0: 'SpectralIsometry.FiniteQuotientInverse.negativeInverseFamily_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:239:0: 'SpectralIsometry.FiniteQuotientInverse.universal_finiteBlock_negative_family' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:240:0: 'SpectralIsometry.FiniteQuotientInverse.universal_finiteBlock_negative_inverse' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:241:0: 'SpectralIsometry.GenericBanach.spectral_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:242:0: 'SpectralIsometry.GenericCLMInverse.ofInverses' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:243:0: 'SpectralIsometry.GenericCLMInverse.ofInverses_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:244:0: 'SpectralIsometry.GenericCLMInverse.ofInverses_symm_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:245:0: 'SpectralIsometry.GenericCLMInverse.rightInv_of_negLeftInv' depends on axioms: [propext]
+info: AxiomReport.lean:246:0: 'SpectralIsometry.GenericCentralBlockIdentities.centralBlock_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:247:0: 'SpectralIsometry.GenericCentralBlockIdentities.centralBlock_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:248:0: 'SpectralIsometry.GenericCentralBlockIdentities.compression_of_corner_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:249:0: 'SpectralIsometry.GenericCentralBlockIdentities.corner_square_zero_of_coe' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:250:0: 'SpectralIsometry.GenericCentralBlockIdentities.crossBlock_id' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:251:0: 'SpectralIsometry.GenericCentralOffDiagonal.family_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:252:0: 'SpectralIsometry.GlobalCenterValuedTrace.exists_faithful_normal_center_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:253:0: 'SpectralIsometry.HilbertDomination.exists_positive_domination' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:254:0: 'SpectralIsometry.HilbertDomination.positive_domination_at_unitary_max' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:255:0: 'SpectralIsometry.InnerSimilarityExample.conjugation_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:256:0: 'SpectralIsometry.InnerSimilarityExample.conjugation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:257:0: 'SpectralIsometry.InnerSimilarityExample.conjugation_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:258:0: 'SpectralIsometry.InnerSimilarityExample.conjugation_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:259:0: 'SpectralIsometry.InnerSimilarityExample.diagonal_similarity_not_star' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:260:0: 'SpectralIsometry.InnerSimilarityExample.exists_radius_preserving_nonstar_similarity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:261:0: 'SpectralIsometry.InverseOrderBounds.isUnit_of_strongStar_quadratic_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:262:0: 'SpectralIsometry.InverseOrderBounds.isUnit_of_two_quadratic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:263:0: 'SpectralIsometry.InverseOrderBounds.left_inverse_of_quadratic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:264:0: 'SpectralIsometry.InverseOrderBounds.operator_quadratic_bounds_of_inverse_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:265:0: 'SpectralIsometry.InverseOrderBounds.positive_unit_spectral_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:266:0: 'SpectralIsometry.InverseOrderBounds.right_inverse_of_quadratic_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:267:0: 'SpectralIsometry.InverseOrderBounds.scalar_le_star_mul_self_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:268:0: 'SpectralIsometry.InverseOrderBounds.star_mul_self_inverse_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:269:0: 'SpectralIsometry.InverseOrderBounds.star_mul_self_lower_of_inverse_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:270:0: 'SpectralIsometry.InverseOrderBounds.two_quadratic_bounds_pass_to_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:271:0: 'SpectralIsometry.InverseOrderBounds.two_quadratic_lower_of_inverse_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:272:0: 'SpectralIsometry.InvertiblePolarDistance.inverse_norm_eq_modulus_inverse_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:273:0: 'SpectralIsometry.InvertiblePolarDistance.inverse_polar_formula' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:274:0: 'SpectralIsometry.InvertiblePolarDistance.minimum_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:275:0: 'SpectralIsometry.InvertiblePolarDistance.modulus_complex_spectrum_isLeast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:276:0: 'SpectralIsometry.InvertiblePolarDistance.modulus_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:277:0: 'SpectralIsometry.InvertiblePolarDistance.modulus_spectral_infimum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:278:0: 'SpectralIsometry.InvertiblePolarDistance.modulus_spectrum_isLeast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:279:0: 'SpectralIsometry.InvertiblePolarDistance.polarFactor_mem_unitary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:280:0: 'SpectralIsometry.InvertiblePolarDistance.polar_boundary_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:281:0: 'SpectralIsometry.InvertiblePolarDistance.polar_boundary_nonunit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:282:0: 'SpectralIsometry.InvertiblePolarDistance.polar_decomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:283:0: 'SpectralIsometry.InvertiblePolarDistance.polar_nearest_nonunit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:284:0: 'SpectralIsometry.InvertiblePolarDistance.positive_unit_spectrum_isLeast' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:285:0: 'SpectralIsometry.JordanSpectral.linearEquiv_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:286:0: 'SpectralIsometry.MainReduction.all_squares_of_selfadjoint_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:287:0: 'SpectralIsometry.MainReduction.imageBicommutantAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:288:0: 'SpectralIsometry.MainReduction.imageBicommutantAlgebra_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:289:0: 'SpectralIsometry.MainReduction.imageBicommutantAlgebra_eq_common_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:290:0: 'SpectralIsometry.MainReduction.imageBicommutantAlgebra_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:291:0: 'SpectralIsometry.MainReduction.imageBicommutant_jacobson_eq_bot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:292:0: 'SpectralIsometry.MainReduction.imageBicommutant_mul_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:293:0: 'SpectralIsometry.MainReduction.imageBicommutant_norm_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:294:0: 'SpectralIsometry.MainReduction.jacobson_eq_bot_of_norm_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:295:0: 'SpectralIsometry.MainReduction.jordan_reduction_of_all_transported_leibniz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:296:0: 'SpectralIsometry.MainReduction.radiusEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:297:0: 'SpectralIsometry.MainReduction.relativeBicommutant_multiplicative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:298:0: 'SpectralIsometry.MainReduction.relativeBicommutant_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:299:0: 'SpectralIsometry.MainReduction.restrictedMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:300:0: 'SpectralIsometry.MainReduction.restrictedMap_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:301:0: 'SpectralIsometry.MainReduction.restrictedMap_preservesRadius' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:302:0: 'SpectralIsometry.MainReduction.restrictedMap_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:303:0: 'SpectralIsometry.MainReduction.selfadjoint_squares_of_all_transported_leibniz' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:304:0: 'SpectralIsometry.MainTransport.image_centralizer_eq_common_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:305:0: 'SpectralIsometry.MainTransport.transportedCentralizerAlgebra' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:306:0: 'SpectralIsometry.MainTransport.transportedCentralizerAlgebra_isClosed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:307:0: 'SpectralIsometry.MatrixKaplansky.amplified_isClosed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:308:0: 'SpectralIsometry.MatrixKaplansky.contraction_finite_approx' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:309:0: 'SpectralIsometry.MatrixKaplansky.contraction_strongStar_finite_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:310:0: 'SpectralIsometry.MatrixKaplansky.entry_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:311:0: 'SpectralIsometry.MatrixKaplansky.offDiagonal_norm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:312:0: 'SpectralIsometry.MatrixKaplansky.offDiagonal_selfAdjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:313:0: 'SpectralIsometry.MatrixKaplansky.representation_isometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:314:0: 'SpectralIsometry.NeighborhoodReindex.exists_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:315:0: 'SpectralIsometry.NeighborhoodReindex.index_atTop_neBot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:316:0: 'SpectralIsometry.NormalProjectionContinuity.diagonalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:317:0: 'SpectralIsometry.NormalProjectionContinuity.diagonalPositive_star_mul_self' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:318:0: 'SpectralIsometry.NormalProjectionContinuity.norm_squares_tendsto_zero_at_normal_vector' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:319:0: 'SpectralIsometry.NormalProjectionContinuity.normalPositive_iff_universal_compressed_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:320:0: 'SpectralIsometry.NormalProjectionContinuity.normalPositive_of_universal_compressed_strongStar' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:321:0: 'SpectralIsometry.NormalProjectionContinuity.normalProjection_apply_eq_self_of_diagonal_normal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:322:0: 'SpectralIsometry.NormalProjectionContinuity.strongStarTendsto_compressed_of_normalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:323:0: 'SpectralIsometry.NormalSeminorm.bundled' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:324:0: 'SpectralIsometry.NormalSeminorm.bundled_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:325:0: 'SpectralIsometry.NormalSeminorm.exists_complex_seminorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:326:0: 'SpectralIsometry.NormalSeminorm.exists_generated_normal_seminorm_topology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:327:0: 'SpectralIsometry.NormalSeminorm.exists_normal_seminorm_topology' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:328:0: 'SpectralIsometry.NormalSeminorm.gnsPair_norm_eq_seminorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:329:0: 'SpectralIsometry.NormalSeminorm.quadratic_sum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:330:0: 'SpectralIsometry.NormalSeminorm.seminormTendsto_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:331:0: 'SpectralIsometry.NormalSeminorm.seminorm_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:332:0: 'SpectralIsometry.NormalSeminorm.seminorm_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:333:0: 'SpectralIsometry.NormalSeminorm.strongStar_on_bounded_sets' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:334:0: 'SpectralIsometry.NormalSeminorm.tendsto_topology_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:335:0: 'SpectralIsometry.NormalSeminorm.tendsto_topology_iff_normalCompression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:336:0: 'SpectralIsometry.NormalSeminorm.tendsto_topology_iff_normalPositive' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:337:0: 'SpectralIsometry.NormalSeminorm.topology_withSeminorms' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:338:0: 'SpectralIsometry.Normalization.central_contraction_perturbations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:339:0: 'SpectralIsometry.Normalization.central_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:340:0: 'SpectralIsometry.Normalization.central_of_translation_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:341:0: 'SpectralIsometry.Normalization.eq_zero_of_one_add_sub_contractions' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:342:0: 'SpectralIsometry.Normalization.exists_uniform_power_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:343:0: 'SpectralIsometry.Normalization.exists_unital_radius_normalization' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:344:0: 'SpectralIsometry.Normalization.map_one_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:345:0: 'SpectralIsometry.Normalization.map_one_central_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:346:0: 'SpectralIsometry.Normalization.map_one_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:347:0: 'SpectralIsometry.Normalization.norm_add_pow_le_of_power_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:348:0: 'SpectralIsometry.Normalization.norm_le_of_translation_radius_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:349:0: 'SpectralIsometry.Normalization.radius_add_le_radius_add_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:350:0: 'SpectralIsometry.Normalization.radius_mul_central_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:351:0: 'SpectralIsometry.OffDiagonalFamily.differentiable_transported_component' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:352:0: 'SpectralIsometry.OffDiagonalFamily.offDiagonal_family_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:353:0: 'SpectralIsometry.OffDiagonalFamily.selfAdjoint_of_jordan_real_spectrum_shifts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:354:0: 'SpectralIsometry.PrincipalVerification.entire_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:355:0: 'SpectralIsometry.PrincipalVerification.main_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:356:0: 'SpectralIsometry.PrincipalVerification.normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:357:0: 'SpectralIsometry.QuadraticProjection.bilinear_eq_zero_of_projection_diagonal_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:358:0: 'SpectralIsometry.ScalarNormalPart.four_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:359:0: 'SpectralIsometry.SourceClaims.angular_support_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:360:0: 'SpectralIsometry.SourceClaims.polar_nearest_nonunit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:361:0: 'SpectralIsometry.SourceClaims.square_zero_contour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:362:0: 'SpectralIsometry.SourceClaims.square_zero_preservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:363:0: 'SpectralIsometry.SquareFamilyAssembly.central_family_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:364:0: 'SpectralIsometry.SquareFamilyAssembly.exp_derivation_of_squaresFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:365:0: 'SpectralIsometry.SquareFamilyAssembly.faithful_algHom_descent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:366:0: 'SpectralIsometry.SquareFamilyAssembly.of_central_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:367:0: 'SpectralIsometry.SquareFamilyAssembly.unitalSquares_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:368:0: 'SpectralIsometry.SquareZeroContour.image_contour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:369:0: 'SpectralIsometry.SquareZeroContour.resolvent_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:370:0: 'SpectralIsometry.SquareZeroContour.square_zero_contour' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:371:0: 'SpectralIsometry.SquareZeroGrowth.inverse_linear_growth_of_quadratic_resolvent_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:372:0: 'SpectralIsometry.SquareZeroGrowth.square_zero_of_inverse_linear_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:373:0: 'SpectralIsometry.SquareZeroPreservation.image_square_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:374:0: 'SpectralIsometry.SquareZeroPreserver.all_weighted_projection_relations_of_bounded_strongStar_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:375:0: 'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_corner_spans' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:376:0: 'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_orthogonal_corner_copies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:377:0: 'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_orthogonal_properlyInfinite_corners' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:378:0: 'SpectralIsometry.SquareZeroPreserver.anticommute_images_of_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:379:0: 'SpectralIsometry.SquareZeroPreserver.bounded_trace_zero_of_two_copies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:380:0: 'SpectralIsometry.SquareZeroPreserver.central_of_commutes_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:381:0: 'SpectralIsometry.SquareZeroPreserver.central_weight_of_all_projection_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:382:0: 'SpectralIsometry.SquareZeroPreserver.central_weight_of_bounded_strongStar_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:383:0: 'SpectralIsometry.SquareZeroPreserver.central_weight_of_corner_bounded_strongStar_continuity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:384:0: 'SpectralIsometry.SquareZeroPreserver.commute_square_of_weightedProjectionRelation' depends on axioms: [propext]
+info: AxiomReport.lean:385:0: 'SpectralIsometry.SquareZeroPreserver.commute_unitSquare_of_weightedProjectionRelation' depends on axioms: [propext]
+info: AxiomReport.lean:386:0: 'SpectralIsometry.SquareZeroPreserver.corner_family_preserves_squares' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:387:0: 'SpectralIsometry.SquareZeroPreserver.dyadic_projection_square_error_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:388:0: 'SpectralIsometry.SquareZeroPreserver.exists_commuting_corner_dyadic_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:389:0: 'SpectralIsometry.SquareZeroPreserver.exists_commuting_dyadic_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:390:0: 'SpectralIsometry.SquareZeroPreserver.exists_corner_isometries_of_properlyInfinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:391:0: 'SpectralIsometry.SquareZeroPreserver.exists_orthogonal_unitCopy_sequence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:392:0: 'SpectralIsometry.SquareZeroPreserver.exists_orthogonal_unitCopy_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:393:0: 'SpectralIsometry.SquareZeroPreserver.exists_properlyInfinite_complement_projection_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:394:0: 'SpectralIsometry.SquareZeroPreserver.hasOrthogonalCopies_central_cut' depends on axioms: [propext]
+info: AxiomReport.lean:395:0: 'SpectralIsometry.SquareZeroPreserver.hasOrthogonalCopies_of_contained_copy' depends on axioms: [propext]
+info: AxiomReport.lean:396:0: 'SpectralIsometry.SquareZeroPreserver.hasOrthogonalCopies_split' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:397:0: 'SpectralIsometry.SquareZeroPreserver.properlyInfinite_of_hasOrthogonalCopies' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:398:0: 'SpectralIsometry.SquareZeroPreserver.square_preserving_of_unital_projection_relations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:399:0: 'SpectralIsometry.SquareZeroPreserver.supportedSquareZero_span_dense_in_corner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:400:0: 'SpectralIsometry.SquareZeroPreserver.trace_on_corner_of_zero_on_squareZero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:401:0: 'SpectralIsometry.SquareZeroPreserver.twoCopyHom_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:402:0: 'SpectralIsometry.SquareZeroPreserver.weightedProjectionRelation_of_properlyInfinite_complements' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:403:0: 'SpectralIsometry.StrongStarApproximation.exists_bounded_squareZero_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:404:0: 'SpectralIsometry.StrongStarApproximation.exists_contraction_strongStar_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:405:0: 'SpectralIsometry.StrongStarApproximation.exists_selfAdjoint_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:406:0: 'SpectralIsometry.StrongStarApproximation.exists_squareZero_contraction_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:407:0: 'SpectralIsometry.StrongStarApproximation.mul_vector_error_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:408:0: 'SpectralIsometry.StrongStarApproximation.negPart_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:409:0: 'SpectralIsometry.StrongStarApproximation.nilIndex_filter_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:410:0: 'SpectralIsometry.StrongStarApproximation.nilpotent_support_projections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:411:0: 'SpectralIsometry.StrongStarApproximation.norm_apply_sq_le_of_selfAdjoint_square_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:412:0: 'SpectralIsometry.StrongStarApproximation.posPart_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:413:0: 'SpectralIsometry.StrongStarApproximation.probeIndex_filter_neBot' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:414:0: 'SpectralIsometry.StrongStarApproximation.squareZero_strongStar_finite_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:415:0: 'SpectralIsometry.StrongStarApproximation.squareZero_support_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:416:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_cfcHomSuperset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:417:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_cfc_of_norm_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:418:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_dyadic_projections' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:419:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_mul_of_norm_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:420:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_negPart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:421:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_of_uniform_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:422:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_posPart' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:423:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_zero_of_projection_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:424:0: 'SpectralIsometry.StrongStarApproximation.strongStarTendsto_zero_of_projection_predual' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:425:0: 'SpectralIsometry.StrongStarApproximation.strongTendsto_mul_of_left_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:426:0: 'SpectralIsometry.StrongStarApproximation.strongTendsto_of_uniform_approx' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:427:0: 'SpectralIsometry.SupportFunctionLimit.angular_support_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:428:0: 'SpectralIsometry.SupportFunctionLimit.farthestDistance_support_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:429:0: 'SpectralIsometry.SupportFunctionLimit.norm_remainder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:430:0: 'SpectralIsometry.SupportIdentification.kernelComplement_eq_rangeSupport_star' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:431:0: 'SpectralIsometry.SupportIdentification.kernelComplement_is_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:432:0: 'SpectralIsometry.SupportIdentification.literal_nilpotent_supports' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:433:0: 'SpectralIsometry.SupportIdentification.mul_kernelComplement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:434:0: 'SpectralIsometry.SupportIdentification.rangeSupport_is_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:435:0: 'SpectralIsometry.SupportIdentification.rangeSupport_mem_bicommutant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:436:0: 'SpectralIsometry.SupportIdentification.rangeSupport_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:437:0: 'SpectralIsometry.SupportIdentification.rangeSupport_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:438:0: 'SpectralIsometry.SupportIdentification.squareZero_supports_orthogonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:439:0: 'SpectralIsometry.TraceSeries.isUnit_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:440:0: 'SpectralIsometry.TraceSeries.one_le_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:441:0: 'SpectralIsometry.TraceSeries.rota_series_eq_literal_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:442:0: 'SpectralIsometry.TraceSeries.rota_series_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:443:0: 'SpectralIsometry.TraceSeries.rota_series_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:444:0: 'SpectralIsometry.TraceSeries.rota_series_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:445:0: 'SpectralIsometry.TraceSeries.rota_similarity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:446:0: 'SpectralIsometry.TraceSeries.summable_literal_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:447:0: 'SpectralIsometry.TraceSeries.summable_rota_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:448:0: 'SpectralIsometry.TraceSeries.tracial_state_radius_bound_via_series' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:449:0: 'SpectralIsometry.TransportExp.exp_innerCLM_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:450:0: 'SpectralIsometry.TransportExp.exp_transportedCLM' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:451:0: 'SpectralIsometry.TransportExp.exp_transportedCLM_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:452:0: 'SpectralIsometry.TransportExp.exp_transportedCLM_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:453:0: 'SpectralIsometry.UniversalBoundedNetAlgebra.exists_bounded_original_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:454:0: 'SpectralIsometry.UniversalBoundedNetAlgebra.firstMap_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:455:0: 'SpectralIsometry.UniversalBoundedNetAlgebra.index_fst_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:456:0: 'SpectralIsometry.UniversalBoundedNetAlgebra.limitMap_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:457:0: 'SpectralIsometry.UniversalBoundedNetAlgebra.squareZero_contraction_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:458:0: 'SpectralIsometry.UniversalBoundedNetAlgebra.squareZero_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:459:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.contraction_approximants_from_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:460:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.exists_bounded_original_neighborhood_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:461:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.exists_squareZero_original_neighborhood_net' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:462:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.firstMap_isometry' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:463:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.limitMap_surjective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:464:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.squareZero_contraction_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:465:0: 'SpectralIsometry.UniversalNeighborhoodNetAlgebra.squareZero_lift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:466:0: 'SpectralIsometry.WeakHilbertBounds.norm_sq_le_of_weak_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:467:0: 'SpectralIsometry.WeakHilbertBounds.tendsto_zero_of_norm_sq_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:468:0: 'SpectralIsometry.WeakStarFunctional.continuous_iff_evaluation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:469:0: 'SpectralIsometry.WeakStarFunctional.exists_evaluation_of_continuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:470:0: 'SpectralIsometry.WeightedFamilyResult.corner_family_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:471:0: 'SpectralIsometry.WeightedFamilyResult.offDiagonal_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:472:0: 'SpectralIsometry.WeightedFamilyResult.proper_corner_family_result' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AxiomReport.lean:473:0: 'SpectralIsometry.central_spectrum_circle_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:474:0: 'SpectralIsometry.closed_subalgebra_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:475:0: 'SpectralIsometry.derivation_kernel_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:476:0: 'SpectralIsometry.distance_to_nonunits' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:477:0: 'SpectralIsometry.entire_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:478:0: 'SpectralIsometry.eq_zero_of_norm_radius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:479:0: 'SpectralIsometry.exp_derivation_automorphism' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:480:0: 'SpectralIsometry.exp_derivation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:481:0: 'SpectralIsometry.exp_squares_iff_derivation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:482:0: 'SpectralIsometry.holomorphic_selfadjoint_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:483:0: 'SpectralIsometry.image_selfadjoint_resolvent_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:484:0: 'SpectralIsometry.injective_of_preservesRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:485:0: 'SpectralIsometry.isometric_algHom_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:486:0: 'SpectralIsometry.jordan_derivation_is_derivation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:487:0: 'SpectralIsometry.jordan_isomorphism_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:488:0: 'SpectralIsometry.main_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:489:0: 'SpectralIsometry.mul_comm_of_norm_le_spectralRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:490:0: 'SpectralIsometry.normal_real_spectrum_selfadjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:491:0: 'SpectralIsometry.normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:492:0: 'SpectralIsometry.radius_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:493:0: 'SpectralIsometry.relativeBicommutant_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:494:0: 'SpectralIsometry.relativeBicommutant_commCStarAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:495:0: 'SpectralIsometry.relativeBicommutant_mul_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:496:0: 'SpectralIsometry.scalar_circle_rpow_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:497:0: 'SpectralIsometry.scalar_circle_rpow_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:498:0: 'SpectralIsometry.selfadjoint_image_perturbation_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:499:0: 'SpectralIsometry.selfadjoint_image_real_spectrum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:500:0: 'SpectralIsometry.selfadjoint_jordan_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:501:0: 'SpectralIsometry.selfadjoint_of_real_spectrum_shifts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:502:0: 'SpectralIsometry.selfadjoint_perturbation_spectral_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:503:0: 'SpectralIsometry.spectral_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:504:0: 'SpectralIsometry.square_preserving_of_trace_pairings' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:505:0: 'SpectralIsometry.square_zero_constant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:506:0: 'SpectralIsometry.square_zero_perturbation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:507:0: 'SpectralIsometry.square_zero_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:508:0: 'SpectralIsometry.square_zero_support_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:509:0: 'SpectralIsometry.squares_of_selfadjoint_squares' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:510:0: 'SpectralIsometry.trace_cubic_polarization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:511:0: 'SpectralIsometry.trace_entire_group_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:512:0: 'SpectralIsometry.trace_quadratic_polarization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:513:0: 'SpectralIsometry.tracial_state_spectralRadius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AxiomReport.lean:514:0: 'SpectralIsometry.translated_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (4381 jobs).

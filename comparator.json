@@ -1,0 +1,15 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "SpectralIsometry.main_result",
+    "SpectralIsometry.entire_group",
+    "SpectralIsometry.normalization"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

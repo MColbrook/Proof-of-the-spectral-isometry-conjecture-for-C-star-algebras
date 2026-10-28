@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: Please cite this formalization and its accompanying manuscript.
+title: A proof of the spectral isometry conjecture for C*-algebras
+type: software
+authors:
+  - family-names: Colbrook
+    given-names: Matthew J.
+  - family-names: Stepaniants
+    given-names: George
+version: 1.0.0
+date-released: 2026-10-28
+license: Apache-2.0

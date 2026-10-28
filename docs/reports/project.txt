@@ -1,0 +1,38 @@
+Actual Linux setup and metadata output
+Date: 2026-10-28
+Host: VT_gauss
+Python: 3.10.12
+
+ACTUAL SHELL SYNTAX COMMAND: /bin/bash -n scripts/verify.sh
+ACTUAL SHELL SYNTAX EXIT: 0
+
+
+ACTUAL SHELL SYNTAX COMMAND: /bin/bash -n scripts/verify-comparator.sh
+ACTUAL SHELL SYNTAX EXIT: 0
+
+
+Python 3.10.12
+
+Publication files installed; both shell scripts parse on Linux.
+
+ACTUAL PORTABILITY COMMAND: /usr/bin/python3 #[-m, venv, .venv]
+ACTUAL PORTABILITY EXIT: 0
+
+
+ACTUAL PORTABILITY COMMAND: /dev/shm/codex_spectral_isometry_20261028_01a17d4a/release_clean_01/.venv/bin/python #[-m, pip, install, --disable-pip-version-check, -q, -r, scripts/requirements.txt]
+ACTUAL PORTABILITY EXIT: 0
+
+
+ACTUAL PORTABILITY COMMAND: /dev/shm/codex_spectral_isometry_20261028_01a17d4a/release_clean_01/.venv/bin/python #[scripts/check_project.py]
+ACTUAL PORTABILITY EXIT: 0
+Project layout and metadata checks passed: 360 Lean files, 3 selected targets.
+This static check is followed by the actual Lean and Comparator runs.
+
+
+ACTUAL PORTABILITY COMMAND: /dev/shm/codex_spectral_isometry_20261028_01a17d4a/release_clean_01/.venv/bin/python #[scripts/check_project.py, --components]
+ACTUAL PORTABILITY EXIT: 0
+Project layout and metadata checks passed: 360 Lean files, 68 selected targets.
+This static check is followed by the actual Lean and Comparator runs.
+
+
+Python 3.10 validation environment and both project checks passed.
