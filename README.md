@@ -3,6 +3,10 @@
 A Lean formalization of the spectral isometry theorem for arbitrary complex
 unital C*-algebras.
 
+This project formalizes the paper
+[*Spectral isometries of unital C\*-algebras*](docs/References.md)
+by Matthew J. Colbrook and George Stepaniants.
+
 Every unital surjective complex-linear map preserving the spectral radius is
 an algebraic Jordan isomorphism: it is bijective and preserves squares.
 The development also proves the entire-group proposition and the normalization
